@@ -1,0 +1,40 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>SAAJJEWELS - shine a little brighter with saaj</title>
+    <link rel="icon" type="image/x-icon" href="/icon.png" />
+    <meta name="description" content="Discover timeless elegance and modern design in our exquisite jewelry collection. Shop necklaces, bracelets, earrings, and rings." />
+    <meta name="keywords" content="jewelry, necklaces, bracelets, earrings, rings, elegant jewelry, modern jewelry" />
+    <meta name="author" content="ElegantJewels" />
+
+    <meta property="og:title" content="ElegantJewels - Timeless Jewelry Collection" />
+    <meta property="og:description" content="Discover timeless elegance and modern design in our exquisite jewelry collection." />
+    <meta property="og:type" content="website" />
+    <meta property="og:image" content="/placeholder.svg" />
+
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:site" content="@elegantjewels" />
+    <meta name="twitter:image" content="/placeholder.svg" />
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;600;700&family=Inter:wght@300;400;500;600&display=swap" rel="stylesheet">
+    <base href="/" />
+    <script>
+      // Handle direct navigation to routes in development
+      (function() {
+        const path = window.location.pathname;
+        if (path.includes('.jsx')) {
+          window.location.href = '/';
+        }
+      })();
+    </script>
+  </head>
+
+  <body>
+    <div id="root"></div>
+    <script type="module" src="/src/main.jsx"></script>
+  </body>
+</html>
