@@ -47,7 +47,7 @@ import path from "path";
 export default defineConfig({
   server: {
     host: "0.0.0.0",
-    port: 5173,                // recommended default for Vite dev
+    port: 5173, // recommended default for Vite dev
     allowedHosts: true,
     proxy: {
       "/api": {
@@ -66,7 +66,8 @@ export default defineConfig({
 
   build: {
     outDir: "dist",
-    sourcemap: false,          // turn off sourcemaps for production builds
+    chunkSizeWarningLimit: 2000, // in KB, e.g. 2000KB = 2MB
+    sourcemap: false,
   },
 
   plugins: [react()],
