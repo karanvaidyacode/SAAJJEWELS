@@ -1,0 +1,203 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Custom scrollbar styles for sliding sections */
+.scrollbar-hide {
+  -ms-overflow-style: none;
+  scrollbar-width: none;
+}
+
+.scrollbar-hide::-webkit-scrollbar {
+  display: none;
+}
+
+/* Smooth scrolling for sliding sections */
+.scroll-smooth {
+  scroll-behavior: smooth;
+}
+
+/* Definition of the design system. All colors, gradients, fonts, etc should be defined here. 
+All colors MUST be HSL.
+*/
+
+@layer base {
+  :root {
+    --background: 28 35% 96%;
+    --foreground: 25 45% 20%;
+
+    --card: 0 0% 100%;
+    --card-foreground: 25 45% 20%;
+
+    --popover: 0 0% 100%;
+    --popover-foreground: 25 45% 20%;
+
+    --primary: 25 45% 28%;
+    --primary-foreground: 28 35% 96%;
+
+    --secondary: 28 30% 85%;
+    --secondary-foreground: 25 45% 20%;
+
+    --muted: 28 20% 88%;
+    --muted-foreground: 25 20% 45%;
+
+    --accent: 38 65% 55%;
+    --accent-foreground: 25 45% 20%;
+
+    --destructive: 0 84.2% 60.2%;
+    --destructive-foreground: 28 35% 96%;
+
+    --border: 28 20% 88%;
+    --input: 28 20% 88%;
+    --ring: 25 45% 28%;
+
+    --radius: 0.5rem;
+
+    --announcement-bg: 25 35% 25%;
+    --announcement-fg: 28 35% 96%;
+
+    --hero-text: 25 50% 15%;
+    --hero-accent: 38 70% 48%;
+
+    --gradient-luxury: linear-gradient(
+      135deg,
+      hsl(28 35% 96%) 0%,
+      hsl(28 25% 90%) 100%
+    );
+    --gradient-gold: linear-gradient(
+      135deg,
+      hsl(38 65% 55%) 0%,
+      hsl(45 75% 65%) 100%
+    );
+
+    --shadow-soft: 0 4px 12px hsla(25, 45%, 20%, 0.08);
+    --shadow-hover: 0 8px 24px hsla(25, 45%, 20%, 0.12);
+
+    --transition-smooth: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+
+    --sidebar-background: 0 0% 98%;
+    --sidebar-foreground: 240 5.3% 26.1%;
+    --sidebar-primary: 240 5.9% 10%;
+    --sidebar-primary-foreground: 0 0% 98%;
+    --sidebar-accent: 240 4.8% 95.9%;
+    --sidebar-accent-foreground: 240 5.9% 10%;
+    --sidebar-border: 220 13% 91%;
+    --sidebar-ring: 217.2 91.2% 59.8%;
+  }
+
+  .dark {
+    --background: 25 25% 12%;
+    --foreground: 28 35% 96%;
+
+    --card: 25 20% 15%;
+    --card-foreground: 28 35% 96%;
+
+    --popover: 25 20% 15%;
+    --popover-foreground: 28 35% 96%;
+
+    --primary: 28 35% 96%;
+    --primary-foreground: 25 45% 20%;
+
+    --secondary: 25 20% 22%;
+    --secondary-foreground: 28 35% 96%;
+
+    --muted: 25 20% 22%;
+    --muted-foreground: 28 20% 65%;
+
+    --accent: 38 65% 55%;
+    --accent-foreground: 28 35% 96%;
+
+    --destructive: 0 62.8% 30.6%;
+    --destructive-foreground: 28 35% 96%;
+
+    --border: 25 20% 22%;
+    --input: 25 20% 22%;
+    --ring: 28 35% 96%;
+
+    --announcement-bg: 25 30% 18%;
+    --announcement-fg: 28 35% 96%;
+
+    --sidebar-background: 240 5.9% 10%;
+    --sidebar-foreground: 240 4.8% 95.9%;
+    --sidebar-primary: 224.3 76.3% 48%;
+    --sidebar-primary-foreground: 0 0% 100%;
+    --sidebar-accent: 240 3.7% 15.9%;
+    --sidebar-accent-foreground: 240 4.8% 95.9%;
+    --sidebar-border: 240 3.7% 15.9%;
+    --sidebar-ring: 217.2 91.2% 59.8%;
+  }
+}
+
+@layer base {
+  * {
+    @apply border-border;
+  }
+
+  body {
+    @apply bg-background text-foreground;
+  }
+}
+
+@layer utilities {
+  /* Hide scrollbar for chrome, safari and opera */
+  .scrollbar-hide::-webkit-scrollbar {
+    display: none;
+  }
+
+  /* Hide scrollbar for IE, Edge and Firefox */
+  .scrollbar-hide {
+    -ms-overflow-style: none; /* IE and Edge */
+    scrollbar-width: none; /* Firefox */
+  }
+
+  /* Shake animation for add to cart buttons */
+  @keyframes shake {
+    /* Shake for first 50% (1s of 2s), pause for remaining 50% (1s) */
+    0%,
+    50% {
+      transform: translateX(0);
+    }
+    5%,
+    15%,
+    25%,
+    35%,
+    45% {
+      transform: translateX(-2px);
+    }
+    10%,
+    20%,
+    30%,
+    40% {
+      transform: translateX(2px);
+    }
+    50%,
+    100% {
+      transform: translateX(0);
+    }
+  }
+
+  .animate-shake {
+    animation: shake 2s ease-in-out infinite;
+  }
+
+  /* Sidebar animations */
+  .animate-fade-in {
+    animation: fadeIn 0.3s ease-in-out;
+  }
+
+  @keyframes fadeIn {
+    from {
+      opacity: 0;
+      transform: translateY(-10px);
+    }
+    to {
+      opacity: 1;
+      transform: translateY(0);
+    }
+  }
+
+  /* Smooth transitions for sidebar */
+  .sidebar-transition {
+    transition: transform 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+  }
+}
