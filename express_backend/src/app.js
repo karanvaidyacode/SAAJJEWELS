@@ -34,44 +34,37 @@ connectDB()
       next();
     });
 
-    // // Configure CORS
-    // const corsOrigins = [
-    //   "http://localhost:3000",
-    //   "http://localhost:5000",
-    //   "http://localhost:5001",
-    //   "http://localhost:5006",
-    //   "http://localhost:5173",
-    //   `http://10.191.31.104:3000`,
-    //   `http://10.191.31.104:5173`
-    // ];
+    // Configure CORS
+    const corsOrigins = [
+      "http://localhost:3000",
+      "http://localhost:5000",
+      "http://localhost:5001",
+      "http://localhost:5006",
+      "http://localhost:5173",
+      `http://10.191.31.104:3000`,
+      `http://10.191.31.104:5173`
+    ];
 
-    // // For development, be more permissive
-    // const corsOptions = {
-    //   origin: function (origin, callback) {
-    //     // Allow requests with no origin (like mobile apps, curl, etc.)
-    //     if (!origin) return callback(null, true);
-
-    //     // Check if origin is in whitelist
-    //     if (corsOrigins.indexOf(origin) !== -1) {
-    //       callback(null, true);
-    //     } else {
-    //       // In development, allow all localhost origins
-    //       if (process.env.NODE_ENV === 'development' && origin.startsWith('http://localhost:')) {
-    //         callback(null, true);
-    //       } else {
-    //         callback(new Error("Not allowed by CORS"));
-    //       }
-    //     }
-    //   },
-    //   credentials: true,
-    // };
-
-    // new cors logic starting here
+    // For development, be more permissive
     const corsOptions = {
-      origin: "*",
-    };
+      origin: function (origin, callback) {
+        // Allow requests with no origin (like mobile apps, curl, etc.)
+        if (!origin) return callback(null, true);
 
-    // new end
+        // Check if origin is in whitelist
+        if (corsOrigins.indexOf(origin) !== -1) {
+          callback(null, true);
+        } else {
+          // In development, allow all localhost origins
+          if (process.env.NODE_ENV === 'development' && origin.startsWith('http://localhost:')) {
+            callback(null, true);
+          } else {
+            callback(new Error("Not allowed by CORS"));
+          }
+        }
+      },
+      credentials: true,
+    };
 
     app.use(cors(corsOptions));
     app.use(express.json());
