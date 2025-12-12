@@ -10,11 +10,11 @@ export default defineConfig({
     allowedHosts: true,
     proxy: {
       "/api": {
-        target: "http://localhost:3002", // Changed from 3001 to 3002
+        target: "https://saaj-backend.onrender.com/", // Changed from 3001 to 3002
         changeOrigin: true,
       },
       "/auth": {
-        target: "http://localhost:3002",
+        target: "https://saaj-backend.onrender.com/",
         changeOrigin: true,
       },
     },
