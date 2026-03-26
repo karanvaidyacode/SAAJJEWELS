@@ -1,0 +1,372 @@
+id,name,originalPrice,discountedPrice,description,category,rating,reviews,createdAt,updatedAt,sku,quantity,media,image
+1,Red Colour Stone Hairbow,109.00,59.00,"This elegant hairbow features a rich red color accented with a sparkling stone at the center, adding a touch of glamour to any hairstyle. The bow is crafted from high-quality satin and organza ribbon, making it perfect for festive occasions, parties, or daily wear.",Hairbows,4.50,0,2025-11-11 08:47:23.736+00,2026-01-31 17:59:45.975+00,,5,"[{""url"":""https://res.cloudinary.com/dfqqzbff7/image/upload/v1769886292/saajjewels_products/j97nnfw61xmntygcjv3p.jpg"",""type"":""image"",""public_id"":""saajjewels_products/j97nnfw61xmntygcjv3p""}]",
+4,Crystal Framed Modern Statement Earrings,89.00,39.00,"Add a bold touch to your look with these geometric earrings featuring a sparkling crystal stud and a rectangular frame encrusted with clear stones. The sleek gold and black bar design inside the frame gives a modern, chic appeal—ideal for party outfits or elevating everyday style.​",Earrings,4.50,0,2025-11-11 08:58:45.582+00,2025-11-11 08:58:45.582+00,,2,"[{""url"":""https://res.cloudinary.com/dfqqzbff7/image/upload/v1762851527/saajjewels_products/q78ev25aglzyws7c4xcz.jpg"",""type"":""image"",""public_id"":""saajjewels_products/q78ev25aglzyws7c4xcz""}]",
+5,Elegant Accessories Gift Bouquet,749.00,549.00,"This unique bouquet features an array of fashion accessories arranged beautifully with vibrant hairbows, floral scrunchies, and stylish jewelry packed in luxe black and gold wrap. Perfect for gifting, it combines chic beauty items and candies in a visually stunning presentation for birthdays, celebrations, or special surprises.",Bouquet,4.50,0,2025-11-11 09:14:12.359+00,2025-11-11 09:14:12.359+00,,3,"[{""url"":""https://res.cloudinary.com/dfqqzbff7/image/upload/v1762852454/saajjewels_products/wybv8dikwp3jczqwban7.jpg"",""type"":""image"",""public_id"":""saajjewels_products/wybv8dikwp3jczqwban7""}]",
+6,Yellow Blossom Hamper,769.00,549.00,"This beautifully curated hamper is filled with elegant yellow-toned accessories, including a charming floral hair clip, a satin scrunchie, a heart-shaped hairpin, a gemstone bracelet, a pendant necklace, and a stylish satin bow. Presented on a decorative tray, it makes a joyful and vibrant gift for special occasions and celebrations.",Hamper,4.50,0,2025-11-11 09:21:25.973+00,2026-01-30 11:21:42.709+00,,6,"[{""url"":""https://res.cloudinary.com/dfqqzbff7/image/upload/v1762852888/saajjewels_products/pjseahldxfooxahbxx50.jpg"",""type"":""image"",""public_id"":""saajjewels_products/pjseahldxfooxahbxx50""}]",
+7,Daisy Charm Pendant Necklace,109.00,59.00,"This delicate necklace features a charming daisy flower pendant with white petals and a gold center, set on a simple chain for an elegant and fresh look. Perfect for daily wear or gifting, it adds a touch of floral beauty to any outfit.",Necklace,4.50,0,2025-11-11 09:26:15.242+00,2025-11-11 09:26:15.242+00,,1,"[{""url"":""https://res.cloudinary.com/dfqqzbff7/image/upload/v1762853177/saajjewels_products/zz1qnnnff8yp4qpvmzdy.jpg"",""type"":""image"",""public_id"":""saajjewels_products/zz1qnnnff8yp4qpvmzdy""}]",
+8,Pastel Pink Satin Scrunchie,79.00,39.00,"This soft pink scrunchie is crafted from smooth satin fabric, providing a gentle and stylish hold for your hair. Its voluminous, ruffled design is perfect for adding a cute and trendy touch to everyday hairstyles or gifting to friends.",Scrunchies,4.50,0,2025-11-11 09:28:00.053+00,2025-11-11 09:28:00.053+00,,1,"[{""url"":""https://res.cloudinary.com/dfqqzbff7/image/upload/v1762853282/saajjewels_products/q1g1fhd62d5xwqlk96vi.jpg"",""type"":""image"",""public_id"":""saajjewels_products/q1g1fhd62d5xwqlk96vi""}]",
+10,Sky Blue Hawaiian Flower Claw,79.00,39.00,"This beautiful claw features a soft sky blue flower design with subtle brown detailing at the center, creating a tropical and fresh look. Ideal for adding a lively, beach-inspired touch to your hairstyles, this accessory is perfect for parties, holidays, or casual everyday wear.",Claws,4.50,0,2025-11-11 09:31:14.757+00,2025-11-11 09:31:14.757+00,,3,"[{""url"":""https://res.cloudinary.com/dfqqzbff7/image/upload/v1762853477/saajjewels_products/wkr1lcnbqbyy8efftxyo.jpg"",""type"":""image"",""public_id"":""saajjewels_products/wkr1lcnbqbyy8efftxyo""}]",
+11,Custom Gift Box Packaging,749.00,549.00,"This elegant custom packaging features a sturdy white box wrapped with a vibrant red ribbon and adorned with floral accents for a festive, premium look. Perfect for special gifts, the box is branded with the SAAJ Jewels logo, ensuring your presents are delivered in style and make a memorable impression.",Custom Packaging,4.50,0,2025-11-11 09:53:24.677+00,2025-11-11 09:53:24.677+00,,1,"[{""url"":""https://res.cloudinary.com/dfqqzbff7/image/upload/v1762854805/saajjewels_products/mnqvcb5wdjrk0rginnk0.jpg"",""type"":""image"",""public_id"":""saajjewels_products/mnqvcb5wdjrk0rginnk0""}]",
+12,Minimalist Silver Geometric Ring,79.00,49.00,"This stylish ring features an open geometric design in shiny silver, giving it a modern, minimal look that's perfect for daily wear or stacking with other rings. Its lightweight feel and chic shape make it a versatile accessory, adding a subtle statement to any outfit.",Rings,4.50,0,2025-11-11 09:56:37.969+00,2025-11-11 09:56:37.969+00,,1,"[{""url"":""https://res.cloudinary.com/dfqqzbff7/image/upload/v1762855000/saajjewels_products/sa2u4lmxngsvf4iuqdbn.jpg"",""type"":""image"",""public_id"":""saajjewels_products/sa2u4lmxngsvf4iuqdbn""}]",
+15,Black Tie Clover Clips,89.00,45.00,"These are a pair of sophisticated, long drop hair clips or barrettes, featuring a gold-toned border and an elegant black clover-like design. Each clip is composed of four interconnected clover motifs, creating a stylish, vertical cascade. The contrasting black color against the delicate gold border offers a timeless, luxurious aesthetic. These accessories are perfect for adding a touch of classic charm and refinement to both everyday and formal hairstyles.",Hairclips,4.50,0,2025-11-11 10:03:44.605+00,2025-12-14 06:07:28.371+00,,1,"[{""url"":""https://res.cloudinary.com/dfqqzbff7/image/upload/v1765692447/saajjewels_products/qy1fhzdhnva4lzdx9tce.jpg"",""type"":""image"",""public_id"":""saajjewels_products/qy1fhzdhnva4lzdx9tce""}]",
+16,Elegant White Clover Hair Clips.,89.00,45.00,"These sophisticated long drop hair clips feature four interconnected white clover motifs set in a shimmering gold-toned border. They offer a refined, timeless accessory perfect for adding a touch of grace to any look.",Hairclips,4.50,0,2025-11-11 10:03:44.605+00,2025-12-14 06:07:45.621+00,,1,"[{""url"":""https://res.cloudinary.com/dfqqzbff7/image/upload/v1765692465/saajjewels_products/ecemku53ghouls4leqdw.jpg"",""type"":""image"",""public_id"":""saajjewels_products/ecemku53ghouls4leqdw""}]",
+17,Pistachio Pearl Hair clips,89.00,45.00,"The Pistachio Pearl hairclip are a playful yet elegant addition to any outfit. Featuring a vibrant pistachio enamel setting accented with delicate faux pearls and sparkling clear stones. Lightweight and eye-catching, these hairclips are perfect for adding a pop of color and classic charm to your look.",Hairclips,4.50,0,2025-11-11 10:03:44.605+00,2025-12-14 06:07:57.251+00,,1,"[{""url"":""https://res.cloudinary.com/dfqqzbff7/image/upload/v1765692476/saajjewels_products/my9ydwidmlkkvm30dyel.jpg"",""type"":""image"",""public_id"":""saajjewels_products/my9ydwidmlkkvm30dyel""}]",
+18,Petal Drop Clips,89.00,45.00,"A unique accessory featuring three linked circles in glitter gold, mint green, and navy blue. Perfect for a modern, bold look.",Hairclips,4.50,0,2025-11-11 10:03:44.605+00,2025-12-14 06:08:34.874+00,,1,"[{""url"":""https://res.cloudinary.com/dfqqzbff7/image/upload/v1765692514/saajjewels_products/lu2zmydtzncnwktjch5i.jpg"",""type"":""image"",""public_id"":""saajjewels_products/lu2zmydtzncnwktjch5i""}]",
+19,Sky Drop Clips,89.00,45.00,"A graceful accessory featuring four cascading light blue floral motifs bordered in delicate, sparkling gold. A timeless, refined piece for adding a fresh pop of color to any hairstyle.",Hairclips,4.50,0,2025-11-11 10:03:44.605+00,2025-12-14 06:08:54.117+00,,1,"[{""url"":""https://res.cloudinary.com/dfqqzbff7/image/upload/v1765692533/saajjewels_products/qgyzmfkcgxe01x3xxyif.jpg"",""type"":""image"",""public_id"":""saajjewels_products/qgyzmfkcgxe01x3xxyif""}]",
+20,Pearl Charm Clips,89.00,45.00,"A sophisticated accessory featuring four cascading cream floral motifs bordered in delicate, sparkling gold. A timeless, refined piece for adding grace to any hairstyle",Hairclips,4.50,0,2025-11-11 10:03:44.605+00,2025-12-14 06:09:14.357+00,,1,"[{""url"":""https://res.cloudinary.com/dfqqzbff7/image/upload/v1765692553/saajjewels_products/s30fqy4ueynb8niahrs9.jpg"",""type"":""image"",""public_id"":""saajjewels_products/s30fqy4ueynb8niahrs9""}]",
+21,Tiny Heart Clutcher Set,89.00,45.00,"A charming set of six small, heart-shaped hair claws in vibrant pastel colors. Perfect for securing small sections of hair, creating cute accents, or for young children.",Hairclips,4.50,0,2025-11-11 10:03:44.605+00,2025-12-14 06:09:55.592+00,,1,"[{""url"":""https://res.cloudinary.com/dfqqzbff7/image/upload/v1765692595/saajjewels_products/ioulfovlrskhpc59ndxh.jpg"",""type"":""image"",""public_id"":""saajjewels_products/ioulfovlrskhpc59ndxh""}]",
+22,Sunburst Flower Claw,79.00,39.00,"A gorgeous, large claw clip featuring a five-petal flower design in a rich, warm amber hue. Perfect for a secure hold and a chic, feminine accent to any hairstyle.",Claws,4.50,0,2025-11-11 10:03:44.605+00,2025-12-14 06:18:09.931+00,,1,"[{""url"":""https://res.cloudinary.com/dfqqzbff7/image/upload/v1765693089/saajjewels_products/wkz6mpgy96kwivyeonpx.jpg"",""type"":""image"",""public_id"":""saajjewels_products/wkz6mpgy96kwivyeonpx""}]",
+23,Sunshine Petal Claw,79.00,39.00,"A gorgeous, large claw clip featuring a five-petal flower design in a rich, sunny yellow. Perfect for a secure hold and a chic, feminine accent to any hairstyle.",Claws,4.50,0,2025-11-11 10:03:44.605+00,2025-12-14 06:18:48.155+00,,1,"[{""url"":""https://res.cloudinary.com/dfqqzbff7/image/upload/v1765693127/saajjewels_products/ipexk4ikjbtpi3j2sglw.jpg"",""type"":""image"",""public_id"":""saajjewels_products/ipexk4ikjbtpi3j2sglw""}]",
+24,Petal Claw,79.00,39.00,"Elegant large claw clip featuring a five-petal flower design in a creamy ivory shade. An easy, sophisticated accent for any hairstyle",Claws,4.50,0,2025-11-11 10:03:44.605+00,2025-12-14 06:19:12.896+00,,1,"[{""url"":""https://res.cloudinary.com/dfqqzbff7/image/upload/v1765693152/saajjewels_products/xoqq6imlgkvgxalcjzq9.jpg"",""type"":""image"",""public_id"":""saajjewels_products/xoqq6imlgkvgxalcjzq9""}]",
+25,Mint Petal Claw,79.00,39.00,"A gorgeous, large claw clip featuring a beautiful five-petal flower design. Provides a secure, strong hold while adding a chic, feminine accent to any hairstyle.",Claws,4.50,0,2025-11-11 10:03:44.605+00,2025-12-14 06:19:23.739+00,,1,"[{""url"":""https://res.cloudinary.com/dfqqzbff7/image/upload/v1765693163/saajjewels_products/gpilzftj6sctqseb8v8n.jpg"",""type"":""image"",""public_id"":""saajjewels_products/gpilzftj6sctqseb8v8n""}]",
+26,Bunny's clutcher/ clips set,49.00,39.00,"A set of small, charming hair claws in fun pastel colors (pink, blue, cream, etc.). Features both plain and butterfly/bow designs. Perfect for creating small accents, securing baby hair, or for young children",Hairclips,4.50,0,2025-11-11 10:03:44.605+00,2025-12-14 06:16:02.333+00,,1,"[{""url"":""https://res.cloudinary.com/dfqqzbff7/image/upload/v1765692961/saajjewels_products/b0bc2nehsi3lsqvfmcnh.jpg"",""type"":""image"",""public_id"":""saajjewels_products/b0bc2nehsi3lsqvfmcnh""}]",
+27,Luxurious Red Satin Scrunchie.,79.00,39.00,"Crafted from smooth, high-quality satin, this scrunchie is gentle on hair while adding a vibrant, glossy pop of color. Perfect for a chic ponytail or wrist accessory.",Scrunchies,4.50,0,2025-11-11 10:03:44.605+00,2025-12-14 06:16:39.218+00,,1,"[{""url"":""https://res.cloudinary.com/dfqqzbff7/image/upload/v1765692998/saajjewels_products/b4njhzvrglcqwoocfcsn.jpg"",""type"":""image"",""public_id"":""saajjewels_products/b4njhzvrglcqwoocfcsn""}]",
+28,Luxurious Yellow Satin Scrunchie.,79.00,39.00,"Crafted from smooth, high-quality satin, this scrunchie is gentle on your hair and adds a vibrant, glossy finish. Perfect for a chic ponytail or wrist accessory",Scrunchies,4.50,0,2025-11-11 10:03:44.605+00,2025-12-14 06:16:28.099+00,,1,"[{""url"":""https://res.cloudinary.com/dfqqzbff7/image/upload/v1765692987/saajjewels_products/ftpoer4m0mf4wkjsrnee.jpg"",""type"":""image"",""public_id"":""saajjewels_products/ftpoer4m0mf4wkjsrnee""}]",
+29,Luxurious Royal Blue Satin Scrunchie,79.00,39.00,"Crafted from smooth, high-quality satin, this scrunchie is gentle on your hair and adds a vibrant, glossy finish. Perfect for a chic ponytail or wrist accessory.",Scrunchies,4.50,0,2025-11-11 10:03:44.605+00,2025-12-14 06:06:48.179+00,,1,"[{""url"":""https://res.cloudinary.com/dfqqzbff7/image/upload/v1765692407/saajjewels_products/tjtzsvvmco1lwvlnzntg.jpg"",""type"":""image"",""public_id"":""saajjewels_products/tjtzsvvmco1lwvlnzntg""}]",
+30,Luxurious Cream White Satin Scrunchie,79.00,39.00,"Crafted from smooth, high-quality satin, this scrunchie is gentle on your hair, reduces breakage, and adds a vibrant, glossy finish. Perfect for a chic ponytail or wrist accessory.",Scrunchies,4.50,0,2025-11-11 10:03:44.605+00,2025-12-14 06:04:33+00,,1,"[{""url"":""https://res.cloudinary.com/dfqqzbff7/image/upload/v1765692272/saajjewels_products/uh5cho4f0c67b7drrt7i.jpg"",""type"":""image"",""public_id"":""saajjewels_products/uh5cho4f0c67b7drrt7i""}]",
+31,Luxurious Black Satin Scrunchie,79.00,39.00,"Crafted from smooth, high-quality satin, this scrunchie is gentle on your hair, reduces breakage, and adds a vibrant, glossy finish. Perfect for a chic ponytail or wrist accessory.",Scrunchies,4.50,0,2025-11-11 10:03:44.605+00,2025-12-14 06:07:06.301+00,,1,"[{""url"":""https://res.cloudinary.com/dfqqzbff7/image/upload/v1765692425/saajjewels_products/gz1atcjnsevmfkhc6xz0.jpg"",""type"":""image"",""public_id"":""saajjewels_products/gz1atcjnsevmfkhc6xz0""}]",
+32,Elegant Baby Pink Hair Bow Clip,109.00,59.00,"Add a touch of elegance to your everyday look with this Baby pink satin organza hair bow, featuring a sparkling crystal centerpiece. Perfect for parties, casual outings, or gifting!",Hairbows,4.50,0,2025-11-11 10:03:44.605+00,2025-12-14 06:13:41.267+00,,1,"[{""url"":""https://res.cloudinary.com/dfqqzbff7/image/upload/v1765692819/saajjewels_products/lcbpmvfna1unykyvkkci.jpg"",""type"":""image"",""public_id"":""saajjewels_products/lcbpmvfna1unykyvkkci""}]",
+33,Elegant Golden bronze  Hair Bow Clip,109.00,59.00,"Add a touch of elegance to your everyday look with this Golden bronze satin organza hair bow, featuring a sparkling crystal centerpiece. Perfect for parties, casual outings, or gifting!",Hairbows,4.50,0,2025-11-11 10:03:44.605+00,2025-12-14 06:13:28.043+00,,1,"[{""url"":""https://res.cloudinary.com/dfqqzbff7/image/upload/v1765692807/saajjewels_products/bzbxr1hbgjq3cdiyirwv.jpg"",""type"":""image"",""public_id"":""saajjewels_products/bzbxr1hbgjq3cdiyirwv""}]",
+34,Elegant Silver/ Grey Hair Bow Clip,109.00,59.00,"Add a touch of elegance to your everyday look with this Silver/Grey satin organza hair bow, featuring a sparkling crystal centerpiece. Perfect for parties, casual outings, or gifting!",Hairbows,4.50,0,2025-11-11 10:03:44.605+00,2025-12-14 06:13:14.891+00,,1,"[{""url"":""https://res.cloudinary.com/dfqqzbff7/image/upload/v1765692794/saajjewels_products/xfh81ry0dbps681sfpbl.jpg"",""type"":""image"",""public_id"":""saajjewels_products/xfh81ry0dbps681sfpbl""}]",
+35,Elegant Classic BlackHair Bow Clip,109.00,59.00,"Add a touch of elegance to your everyday look with this Classic black  satin organza hair bow, featuring a sparkling crystal centerpiece. Perfect for parties, casual outings, or gifting!",Hairbows,4.50,0,2025-11-11 10:03:44.605+00,2025-12-14 06:12:59.852+00,,1,"[{""url"":""https://res.cloudinary.com/dfqqzbff7/image/upload/v1765692779/saajjewels_products/oth0wchinuuza0ihxrca.jpg"",""type"":""image"",""public_id"":""saajjewels_products/oth0wchinuuza0ihxrca""}]",
+36,Elegant  Forest Green Hair Bow Clip,109.00,59.00,"Add a touch of elegance to your everyday look with this  Forest Green satin organza hair bow, featuring a sparkling crystal centerpiece. Perfect for parties, casual outings, or gifting!",Hairbows,4.50,0,2025-11-11 10:03:44.605+00,2025-12-14 06:12:45.823+00,,1,"[{""url"":""https://res.cloudinary.com/dfqqzbff7/image/upload/v1765692764/saajjewels_products/uviguyb5bn9ki5bejqit.jpg"",""type"":""image"",""public_id"":""saajjewels_products/uviguyb5bn9ki5bejqit""}]",
+37,Elegant Peach  Hair Bow Clip,109.00,59.00,"Add a touch of elegance to your everyday look with this Peach satin organza hair bow, featuring a sparkling crystal centerpiece. Perfect for parties, casual outings, or gifting!",Hairbows,4.50,0,2025-11-11 10:03:44.605+00,2025-12-14 06:13:55.518+00,,1,"[{""url"":""https://res.cloudinary.com/dfqqzbff7/image/upload/v1765692835/saajjewels_products/t5xkic1uxrbwxspygyb3.jpg"",""type"":""image"",""public_id"":""saajjewels_products/t5xkic1uxrbwxspygyb3""}]",
+38,Elegant Pure White Hair Bow Clip,109.00,59.00,"Add a touch of elegance to your everyday look with this Pure White  satin organza hair bow, featuring a sparkling crystal centerpiece. Perfect for parties, casual outings, or gifting",Hairbows,4.50,0,2025-11-11 10:03:44.605+00,2025-12-14 06:12:14.953+00,,1,"[{""url"":""https://res.cloudinary.com/dfqqzbff7/image/upload/v1765692734/saajjewels_products/kag3mxeewslrlfocjyww.jpg"",""type"":""image"",""public_id"":""saajjewels_products/kag3mxeewslrlfocjyww""}]",
+44,Traditional Oxidized Jhumka Earrings.,99.00,45.00,"Intricately crafted with an oxidized silver finish, featuring a beautiful peacock-inspired stud and a classic, beaded jhumka drop. Perfect for adding a touch of timeless, ethnic elegance to any look.",Jhumka,4.50,0,2025-11-11 10:03:44.605+00,2025-12-15 20:58:19.931+00,,1,"[{""url"":""https://res.cloudinary.com/dfqqzbff7/image/upload/v1765832299/saajjewels_products/ioxgfarod5q0uyeo3kmd.jpg"",""type"":""image"",""public_id"":""saajjewels_products/ioxgfarod5q0uyeo3kmd""}]",
+45,Elephant oxidised Jhumka,99.00,45.00,"Intricately designed oxidized jhumka earrings with a majestic elephant stud and a detailed, classic bell drop. A perfect blend of tradition and charm",Jhumka,4.50,0,2025-11-11 10:03:44.605+00,2025-12-15 21:02:42.372+00,,1,"[{""url"":""https://res.cloudinary.com/dfqqzbff7/image/upload/v1765832561/saajjewels_products/vcpxsvo3pcivsa2n7peo.jpg"",""type"":""image"",""public_id"":""saajjewels_products/vcpxsvo3pcivsa2n7peo""}]",
+46,Oxidized Ethnic Earrings,99.00,45.00,"Unique oxidized silver earrings featuring a striking geometric kite shape, floral motif, and dangling ghungroo beads. Modern yet rustic",Jhumka,4.50,0,2025-11-11 10:03:44.605+00,2025-12-15 21:02:59.764+00,,1,"[{""url"":""https://res.cloudinary.com/dfqqzbff7/image/upload/v1765832579/saajjewels_products/yvv2kmi8h9t8wjvzv3lu.jpg"",""type"":""image"",""public_id"":""saajjewels_products/yvv2kmi8h9t8wjvzv3lu""}]",
+47,Peacock Jhumka Drops,99.00,45.00,"Traditional oxidized silver jhumkas featuring an elegant peacock stud and a classic, beaded bell drop. Adds a touch of timeless, ethnic elegance",Jhumka,4.50,0,2025-11-11 10:03:44.605+00,2025-12-15 21:06:55.124+00,,1,"[{""url"":""https://res.cloudinary.com/dfqqzbff7/image/upload/v1765832814/saajjewels_products/urnqlksp7jxx7qetyb4w.jpg"",""type"":""image"",""public_id"":""saajjewels_products/urnqlksp7jxx7qetyb4w""}]",
+48,Mayuri Oxidised Jhumka,99.00,45.00,Shine a little brighter with these beautiful oxidized silver jhumkas. Featuring a vibrant peacock feather enamel design framed by sparkling Kundan work. The intricate detailing and delicate silver drops make this pair perfect for adding a touch of traditional charm to any outfit. Style: Stud Jhumka. Material: Oxidised Metal with Enamel and Kundan accents,Jhumka,4.50,0,2025-11-11 10:03:44.605+00,2025-12-15 21:07:56.224+00,,1,"[{""url"":""https://res.cloudinary.com/dfqqzbff7/image/upload/v1765832875/saajjewels_products/pmxhqc6j6lvpiqmgsznk.jpg"",""type"":""image"",""public_id"":""saajjewels_products/pmxhqc6j6lvpiqmgsznk""}]",
+49,Mirror Glow Jhumka,99.00,45.00,"Reflect your beautiful style with these traditional oxidized jhumkas. The central shisha (mirror) work is framed by intricate silver detailing, creating a classic, vintage appeal. Finished with delicate hanging bells, this pair is essential for ethnic wear and festive occasions",Jhumka,4.50,0,2025-11-11 10:03:44.605+00,2025-12-15 21:09:53.577+00,,1,"[{""url"":""https://res.cloudinary.com/dfqqzbff7/image/upload/v1765832992/saajjewels_products/gtjuoczb0t2qtpfmg1i3.jpg"",""type"":""image"",""public_id"":""saajjewels_products/gtjuoczb0t2qtpfmg1i3""}]",
+50,Chidiya Oxidised Drop Jhumka,99.00,45.00,"A beautiful blend of nature and tradition. These oxidized silver jhumkas feature an intricate bird motif within an ornate frame. The design is finished with classic hanging silver bells for a lovely, subtle jingle. Perfect for adding a unique, vintage touch to your ethnic and fusion wear",Jhumka,4.50,0,2025-11-11 10:03:44.605+00,2025-12-15 21:10:24.689+00,,1,"[{""url"":""https://res.cloudinary.com/dfqqzbff7/image/upload/v1765833023/saajjewels_products/yd6lcqvprjp6igwdb7eh.jpg"",""type"":""image"",""public_id"":""saajjewels_products/yd6lcqvprjp6igwdb7eh""}]",
+51,Sunburst Jhumka,99.00,45.00,"Make a statement with the Suraj Kund Jhumka. It pairs a bold, sunburst oxidized stud with a perfectly sized, highly detailed traditional bell jhumka. This piece is a must-have for those who love classic, high-impact ethnic jewellery",Jhumka,4.50,0,2025-11-11 10:03:44.605+00,2025-12-15 21:13:23.532+00,,1,"[{""url"":""https://res.cloudinary.com/dfqqzbff7/image/upload/v1765833202/saajjewels_products/znndmui4hyntf7owplob.jpg"",""type"":""image"",""public_id"":""saajjewels_products/znndmui4hyntf7owplob""}]",
+52,Ghera classic zhumka,99.00,45.00,"Timeless elegance redefined. These beautiful oxidized earrings feature a decorative woven circle stud connected to a perfect, intricately designed bell jhumka. An essential piece for daily wear or classic ethnic styling.",Jhumka,4.50,0,2025-11-11 10:03:44.605+00,2025-12-15 21:13:41.159+00,,1,"[{""url"":""https://res.cloudinary.com/dfqqzbff7/image/upload/v1765833220/saajjewels_products/nypviw0gskwaayvlkhlo.jpg"",""type"":""image"",""public_id"":""saajjewels_products/nypviw0gskwaayvlkhlo""}]",
+53,Mayuri chakra hoops,99.00,45.00,Make a statement with these striking oxidized hoop earrings. They feature a vibrant peacock eye enamel center framed by intricate metalwork and finished with a bold ring of silver ghungroo drops. Perfect for festive and heavy ethnic looks.,Jhumka,4.50,0,2025-11-11 10:03:44.605+00,2025-12-15 21:14:10.568+00,,2,"[{""url"":""https://res.cloudinary.com/dfqqzbff7/image/upload/v1765833249/saajjewels_products/u7tdi3iozlo5t2lhqdk5.jpg"",""type"":""image"",""public_id"":""saajjewels_products/u7tdi3iozlo5t2lhqdk5""}]",
+54,Fern Oxidised Jhumka,99.00,45.00,"A stunning pair of oxidised silver-plated earrings that blend traditional charm with a modern leaf-inspired design. These beautiful earrings feature an intricate Pankh (feather/leaf) top, finished with delicate, dangling mini-jhumkas that chime softly with every movement. They are lightweight, comfortable, and perfect for adding a touch of bohemian or ethnic flair to any outfit, from daily wear to festive occasions",Jhumka,4.50,0,2025-11-11 10:03:44.605+00,2025-12-15 21:14:39.939+00,,1,"[{""url"":""https://res.cloudinary.com/dfqqzbff7/image/upload/v1765833277/saajjewels_products/x9rpepf1h0bva3sysfs3.jpg"",""type"":""image"",""public_id"":""saajjewels_products/x9rpepf1h0bva3sysfs3""}]",
+55,Dangler Fusion Jhumka,99.00,45.00,"These earrings feature a beautifully detailed, wire-wrapped outer hoop that perfectly frames a traditional, dangling oxidised jhumka bell inside. They offer the perfect balance of bohemian flair and ethnic charm, ensuring you stand out. Lightweight and designed to catch the eye, they are ideal for party wear, festivals, or adding drama to your everyday look.",Jhumka,4.50,0,2025-11-11 10:03:44.605+00,2025-12-15 21:14:59.575+00,,1,"[{""url"":""https://res.cloudinary.com/dfqqzbff7/image/upload/v1765833298/saajjewels_products/z87ldswoykwtpzboiisv.jpg"",""type"":""image"",""public_id"":""saajjewels_products/z87ldswoykwtpzboiisv""}]",
+56,Pink stone drops,99.00,45.00,"These elegant earrings feature a brilliant hot pink stone set in an intricate oxidised silver frame. The base showcases delicate filigree work accented with tiny white pearls and ruby-toned beads, creating a rich, traditional appeal. Perfect for adding a festive splash of colour and elegance to any ethnic or fusion ensemble.",Jhumka,4.50,0,2025-11-11 10:03:44.605+00,2025-12-15 21:15:15.207+00,,1,"[{""url"":""https://res.cloudinary.com/dfqqzbff7/image/upload/v1765833314/saajjewels_products/aihgiszlvhdukepfhiei.jpg"",""type"":""image"",""public_id"":""saajjewels_products/aihgiszlvhdukepfhiei""}]",
+57,Lavender Meher stone Drops,99.00,45.00,"A truly elegant pair of oxidised silver-plated earrings featuring a gorgeous, colorful stone at the center of a graceful, arched frame. The design is accented with delicate miniature pearls that dangle softly at the base. These classic stud-style earrings are perfect for adding a touch of traditional class and color to your festive or formal wear.",Jhumka,4.50,0,2025-11-11 10:03:44.605+00,2025-12-15 21:15:31.571+00,,1,"[{""url"":""https://res.cloudinary.com/dfqqzbff7/image/upload/v1765833330/saajjewels_products/wocagojotji6nznmch5s.jpg"",""type"":""image"",""public_id"":""saajjewels_products/wocagojotji6nznmch5s""}]",
+58,Saffron Sun stone drops,99.00,45.00,"Embrace timeless ethnic style with our Saffron Sun stone drops These captivating earrings feature a bold, sunny yellow stone set in intricately carved antique silver-finish metal. Delicate white beads and pearls dangle beneath, adding a touch of traditional charm and movement. Perfect for Kurtis, Sarees, or adding a pop of color to any casual look",Jhumka,4.50,0,2025-11-11 10:03:44.605+00,2025-12-15 21:15:47.186+00,,1,"[{""url"":""https://res.cloudinary.com/dfqqzbff7/image/upload/v1765833346/saajjewels_products/abycvzhunc1sezgnzadx.jpg"",""type"":""image"",""public_id"":""saajjewels_products/abycvzhunc1sezgnzadx""}]",
+59,Midnight Onyx Oxidised Jhumka,99.00,45.00,"Discover sophisticated elegance with our Midnight Onyx Oxidised Jhumka. These captivating earrings feature a deep black stone set in an intricately crafted antique silver-finish frame. The dark, bold design is beautifully contrasted by delicate white pearl drops, adding a touch of classic charm. A versatile piece perfect for evening wear, festive occasions, or styling with contemporary fusion outfits.",Jhumka,4.50,0,2025-11-11 10:03:44.605+00,2025-12-15 21:16:03.838+00,,1,"[{""url"":""https://res.cloudinary.com/dfqqzbff7/image/upload/v1765833363/saajjewels_products/urueewbcddf8bzvxs8sh.jpg"",""type"":""image"",""public_id"":""saajjewels_products/urueewbcddf8bzvxs8sh""}]",
+60,Ocean teardrops earring,99.00,45.00,"Adorn yourself with the stunning beauty of our Ocean teardrops earring Featuring a graceful peacock design in antique silver finish, these earrings frame a captivating Aqua Blue/Turquoise colored stone. Delicate white pearls dangle below, completing this traditional yet striking look. Perfect for adding a festive touch to ethnic wear or a unique flair to fusion outfits.",Jhumka,4.50,0,2025-11-11 10:03:44.605+00,2025-12-15 21:16:32.102+00,,1,"[{""url"":""https://res.cloudinary.com/dfqqzbff7/image/upload/v1765833391/saajjewels_products/oajbxclvvysxpzwzlb7o.jpg"",""type"":""image"",""public_id"":""saajjewels_products/oajbxclvvysxpzwzlb7o""}]",
+61,Emerald Mayuri Drops,99.00,45.00,"Embrace traditional elegance with our Emerald Mayuri Drops. This classic peacock design in antique silver is centered around a rich, deep Emerald Green stone. The perfect blend of oxidised metal and luminous white pearls, making them a stunning accessory for Lehengas, Sarees, or everyday wear.",Jhumka,4.50,0,2025-11-11 10:03:44.605+00,2025-12-15 21:16:46.22+00,,1,"[{""url"":""https://res.cloudinary.com/dfqqzbff7/image/upload/v1765833405/saajjewels_products/zrgjet1wys5heog4ww1y.jpg"",""type"":""image"",""public_id"":""saajjewels_products/zrgjet1wys5heog4ww1y""}]",
+62,Sunshine Oxidised Dangler Earrings,99.00,45.00,"Brighten up your day with the Sunshine Oxidised Earrings. The eye-catching yellow stone is framed by detailed oxidised silver, shaped like a classic peacock. These versatile danglers by SaajJewels are perfect for festive occasions, ethnic wear, or a stylish everyday statement. Easy to style and a must-have for your jewelry collection.",Jhumka,4.50,0,2025-11-11 10:03:44.605+00,2025-12-15 21:17:04.305+00,,1,"[{""url"":""https://res.cloudinary.com/dfqqzbff7/image/upload/v1765833423/saajjewels_products/fazsum3ddtwnlgnaeeba.jpg"",""type"":""image"",""public_id"":""saajjewels_products/fazsum3ddtwnlgnaeeba""}]",
+63,Ros� Pearl Drop,99.00,45.00,"Elevate your everyday look with this stunning 3-in-1 set. Featuring a classic pearl stud paired with a brilliant CZ solitaire, finished with a chic rose gold-plated hoop. Perfect for effortless elegance.",Studs,4.50,0,2025-11-11 10:03:44.605+00,2025-12-15 21:17:25.511+00,,1,"[{""url"":""https://res.cloudinary.com/dfqqzbff7/image/upload/v1765833444/saajjewels_products/k9e05qlldgsbnsglslew.jpg"",""type"":""image"",""public_id"":""saajjewels_products/k9e05qlldgsbnsglslew""}]",
+64,Sculpt Hoops,99.00,45.00,"The perfect accessory for the modern minimalist. These polished metal studs feature an interlocking ring design that gives a substantial, luxe feel without the weight. Easy to wear and pair with everything from office wear to weekend casual.",Studs,4.50,0,2025-11-11 10:03:44.605+00,2025-12-15 21:17:42.705+00,,1,"[{""url"":""https://res.cloudinary.com/dfqqzbff7/image/upload/v1765833462/saajjewels_products/khglwrmjb9mvqepyc2ei.jpg"",""type"":""image"",""public_id"":""saajjewels_products/khglwrmjb9mvqepyc2ei""}]",
+65,Gold Curve Studs,99.00,45.00,"Make a bold statement with these high-shine, chunky C-shaped hoops. Their smooth, polished finish and substantial size capture light beautifully, adding instant glamour to any look. Lightweight and comfortable post-back",Studs,4.50,0,2025-11-11 10:03:44.605+00,2025-12-15 21:18:00.483+00,,2,"[{""url"":""https://res.cloudinary.com/dfqqzbff7/image/upload/v1765833479/saajjewels_products/bou7hzaeq7w940rwhvoe.jpg"",""type"":""image"",""public_id"":""saajjewels_products/bou7hzaeq7w940rwhvoe""}]",
+66,Starlight Hoops,99.00,45.00,"Shine bright with these playful, yet chic, gold star hoops. Their structured, hollow design adds a fun geometric touch, perfect for dressing up a casual outfit or making a festive statement.",Studs,4.50,0,2025-11-11 10:03:44.605+00,2025-12-15 21:18:19.732+00,,2,"[{""url"":""https://res.cloudinary.com/dfqqzbff7/image/upload/v1765833498/saajjewels_products/nbgujtxiwzcpfrfyrqxn.jpg"",""type"":""image"",""public_id"":""saajjewels_products/nbgujtxiwzcpfrfyrqxn""}]",
+67,Small Gold Crescent Studs,99.00,45.00,"Subtle elegance for everyday wear. These tiny, polished crescent studs are a minimalist staple with a celestial twist. Perfect worn alone or added to a stack of earrings.",Studs,4.50,0,2025-11-11 10:03:44.605+00,2025-12-15 21:18:36.332+00,,1,"[{""url"":""https://res.cloudinary.com/dfqqzbff7/image/upload/v1765833515/saajjewels_products/fennti73rkkyp4k4gq7i.jpg"",""type"":""image"",""public_id"":""saajjewels_products/fennti73rkkyp4k4gq7i""}]",
+68,Love Knot Pendant,159.00,79.00,"Symbolizing eternal connection and endless love, this pendant features a beautifully textured open heart styled as a delicate knot. Suspended from a slender gold-toned chain, it�s the perfect piece for subtle, meaningful elegance.",Pendants,4.50,0,2025-11-11 10:03:44.605+00,2025-12-15 21:18:56.244+00,,1,"[{""url"":""https://res.cloudinary.com/dfqqzbff7/image/upload/v1765833535/saajjewels_products/fegnvusj8ykxsxqiv2vx.jpg"",""type"":""image"",""public_id"":""saajjewels_products/fegnvusj8ykxsxqiv2vx""}]",
+69,Black Daisy Charm Necklace,119.00,59.00,A charming and unique statement. This pendant features a delicate daisy design with a matte black enamel finish and a pop of yellow at the center. Perfect for adding a touch of whimsy and color to your everyday look.,Pendants,4.50,0,2025-11-11 10:03:44.605+00,2025-12-15 21:19:29.113+00,,2,"[{""url"":""https://res.cloudinary.com/dfqqzbff7/image/upload/v1765833568/saajjewels_products/sqeyppvpaiq1ucfb8slb.jpg"",""type"":""image"",""public_id"":""saajjewels_products/sqeyppvpaiq1ucfb8slb""}]",
+70,White Daisy Charm Pendant,119.00,59.00,"The Daisy Pendant features a delicate enamel daisy on a sleek silver-tone chain. Simple, sweet, and perfect for adding a subtle pop of fresh elegance to any daily look. A must-have for every jewelry lover.",Pendants,4.50,0,2025-11-11 10:03:44.605+00,2025-12-15 21:19:41.083+00,,1,"[{""url"":""https://res.cloudinary.com/dfqqzbff7/image/upload/v1765833580/saajjewels_products/yhaiwhtgonhlawzw5qsg.jpg"",""type"":""image"",""public_id"":""saajjewels_products/yhaiwhtgonhlawzw5qsg""}]",
+71,Tiny Heart Cute Pendant,159.00,79.00,"Wear your heart on a chain. Little Love is our sweetest piece�a tiny, high-polish gold heart on a delicate gold-tone chain. Perfect for layering or wearing solo for a subtle, romantic statement every day. Simple love, timeless design.",Pendants,4.50,0,2025-11-11 10:03:44.605+00,2025-12-15 21:19:57.064+00,,1,"[{""url"":""https://res.cloudinary.com/dfqqzbff7/image/upload/v1765833596/saajjewels_products/azp38pq8ut2if3x6dquj.jpg"",""type"":""image"",""public_id"":""saajjewels_products/azp38pq8ut2if3x6dquj""}]",
+72,Crescent Moon & Star pendant,119.00,59.00,"Our Starlight Pendant captures the magic of the night sky. This charming, delicate piece features a crescent moon and star, beautifully embellished with subtle sparkle, set on a fine gold-tone chain. Perfect for adding a celestial touch of elegance to any look",Pendants,4.50,0,2025-11-11 10:03:44.605+00,2025-12-15 21:20:22+00,,1,"[{""url"":""https://res.cloudinary.com/dfqqzbff7/image/upload/v1765833621/saajjewels_products/dw9gyrjnejsdd8zrbpac.jpg"",""type"":""image"",""public_id"":""saajjewels_products/dw9gyrjnejsdd8zrbpac""}]",
+73,Endless Love Pendant,159.00,79.00,"The Endless Love necklace showcases the classic infinity symbol in a smooth, high-shine gold-tone finish. A simple, meaningful piece representing eternal commitment and style.",Pendants,4.50,0,2025-11-11 10:03:44.605+00,2025-12-15 21:20:34.147+00,,1,"[{""url"":""https://res.cloudinary.com/dfqqzbff7/image/upload/v1765833633/saajjewels_products/jj7iv7xmglsxkzg3xxb6.jpg"",""type"":""image"",""public_id"":""saajjewels_products/jj7iv7xmglsxkzg3xxb6""}]",
+74,Silver Bow Necklace,119.00,59.00,"Ribbon Tie features a beautifully textured bow pendant on a delicate silver-tone chain. Sweet, chic, and perfect for adding a touch of feminine flair to your everyday look.",Pendants,4.50,0,2025-11-11 10:03:44.605+00,2025-12-15 21:20:54.656+00,,1,"[{""url"":""https://res.cloudinary.com/dfqqzbff7/image/upload/v1765833654/saajjewels_products/yyfmt33zyfopqw8kqxp5.jpg"",""type"":""image"",""public_id"":""saajjewels_products/yyfmt33zyfopqw8kqxp5""}]",
+75,Gold Four Leaf pendant,119.00,59.00,Bring good fortune to your style. The Lucky Charm necklace features a beautiful four-leaf clover pendant fully set with sparkling stones in a gold tone. It's a statement piece that adds glamour and a touch of luck to any look.,Pendants,4.50,0,2025-11-11 10:03:44.605+00,2025-12-15 21:21:12.2+00,,1,"[{""url"":""https://res.cloudinary.com/dfqqzbff7/image/upload/v1765833671/saajjewels_products/vvyijhs4tqcxgdi1sh5n.jpg"",""type"":""image"",""public_id"":""saajjewels_products/vvyijhs4tqcxgdi1sh5n""}]",
+76,Adore Pendant,119.00,59.00,"A delicate necklace featuring a sparkling crystal-studded circle and a sweet, floating heart detail within. Perfect for everyday elegance or as a thoughtful gift. Lightweight and timeless.",Pendants,4.50,0,2025-11-11 10:03:44.605+00,2025-12-15 21:21:28.418+00,,1,"[{""url"":""https://res.cloudinary.com/dfqqzbff7/image/upload/v1765833687/saajjewels_products/gtzesaq2xxx8cop4ds1a.jpg"",""type"":""image"",""public_id"":""saajjewels_products/gtzesaq2xxx8cop4ds1a""}]",
+77,Glimmer Heart Necklace,119.00,59.00,"A charming, petite heart pendant dipped in rich gold tone and studded with shimmering crystals. This dainty necklace is perfect for layering or wearing on its own for a touch of everyday radiance. A sweet token of affection.",Pendants,4.50,0,2025-11-11 10:03:44.605+00,2025-12-15 21:21:42.613+00,,1,"[{""url"":""https://res.cloudinary.com/dfqqzbff7/image/upload/v1765833702/saajjewels_products/hmxdtgdk0o6o70xtexzm.jpg"",""type"":""image"",""public_id"":""saajjewels_products/hmxdtgdk0o6o70xtexzm""}]",
+79,Forever Him – Premium Men’s Gift Hamper,3499.00,2199.00,"Make his special moments unforgettable with our Forever Him – Premium Men’s Gift Hamper, thoughtfully curated to express love, style, and elegance. Perfect for Birthdays, Anniversaries, Valentine’s Day, or any celebration, this luxury hamper combines timeless fashion with heartfelt personalization.
+Beautifully arranged in a rigid collapsible premium gift box, this hamper is designed to impress from the first glance and create lasting memories.
+
+What’s Inside the Hamper?
+✨ Premium Men’s Shirt
+✨ Stylish Wrist Watch
+✨ Perfume (Long-lasting fragrance)
+✨ Chocolate Treat
+✨ Sunglasses
+✨ Personalized Photo
+✨ Warm White Decorative Fairy Lights
+✨ Handmade Greeting Card
+✨ Occasion Topper (Birthday / Anniversary / Love, etc.)
+✨ Elegant Rigid Collapsible Gift Box
+
+“To select the shirt size or request any customization, feel free to DM us directly on @saaj__jewels. We’re happy to personalize it for you.”",Men's Hamper,4.50,0,2026-01-26 19:26:48.423+00,2026-02-01 08:15:12.062+00,,1,"[{""url"":""https://res.cloudinary.com/dfqqzbff7/image/upload/v1769456196/saajjewels_products/s9g9jsqiodhxcb9njnug.jpg"",""type"":""image"",""public_id"":""saajjewels_products/s9g9jsqiodhxcb9njnug""}]",
+80,To My Forever – Anniversary Gift Box,3680.00,2249.00,"Celebrate your journey of love with our Forever & Always – Anniversary Men’s Hamper by Saaj Jewels, thoughtfully curated to make your anniversary truly unforgettable. This luxurious hamper is a perfect blend of style, emotions, and meaningful details—designed to express love that grows stronger with time.
+Beautifully arranged in a premium rigid collapsible gift box, this hamper includes a stylish men’s shirt, elegant watch, perfume, chocolates, and personalized elements that add a heartfelt touch. The warm fairy lights and customized photo create a magical presentation, while the handmade card and anniversary topper make it even more special.
+Whether it’s your first anniversary or a milestone celebration, this hamper is a timeless way to say “I choose you, always.”
+Hamper Includes
+• Premium Men’s Shirt
+• Stylish Wrist Watch
+• Perfume
+• Chocolate
+• Sunglasses
+• Personalized Photo
+• Warm Decorative Fairy Lights
+• Handmade Greeting Card
+• Anniversary Topper
+• Luxury Rigid Collapsible Gift Box
+Perfect For
+💍 Wedding Anniversaries
+💖 Romantic Surprises
+🎁 Gift for Husband / Boyfriend
+
+“To select the shirt size or request any customization, feel free to DM us directly on Saaj Jewels. We’re happy to personalize it for you.”",Hamper,4.50,0,2026-01-26 19:43:52.692+00,2026-01-26 19:43:52.692+00,,1,"[{""url"":""https://res.cloudinary.com/dfqqzbff7/image/upload/v1769456631/saajjewels_products/yruqgeoisvlsk1opsler.jpg"",""type"":""image"",""public_id"":""saajjewels_products/yruqgeoisvlsk1opsler""}]",
+81,Forever Him – Signature Men’s Gift Hamper,2499.00,1899.00,"Make every celebration unforgettable with Forever Him – Signature Men’s Gift Hamper by Saaj Jewels. Thoughtfully curated with premium essentials and personalized details, this hamper is designed to impress and create lasting memories for the special man in your life.
+Presented in a luxury rigid collapsible gift box, the hamper features a stylish men’s shirt, elegant watch, perfume, chocolates, and sunglasses, beautifully complemented with warm decorative lights. The personalized photo, handmade greeting card, and occasion topper (Birthday / Anniversary / Love) add a heartfelt touch, making it a perfect blend of style and emotions.
+Whether it’s a Birthday, Anniversary, Valentine’s Day, or a surprise gesture, this men’s hamper is a timeless expression of love and care.
+Hamper Includes
+• Premium Men’s Shirt
+• Perfume
+• Chocolate
+• Sunglasses
+• Personalized Photo
+• Warm Decorative Fairy Lights
+• Occasion Topper (Birthday / Anniversary / Love, etc.)
+• Luxury Rigid Collapsible Gift Box
+
+“To select the shirt size or request any customization, feel free to DM us directly on Saaj Jewels. We’re happy to personalize it for you.”",Men's Hamper,4.50,0,2026-01-26 19:52:56.244+00,2026-02-01 08:56:44.926+00,,1,"[{""url"":""https://res.cloudinary.com/dfqqzbff7/image/upload/v1769457175/saajjewels_products/ag9fznjihbbj9lbliycc.jpg"",""type"":""image"",""public_id"":""saajjewels_products/ag9fznjihbbj9lbliycc""}]",
+82,Tak Blue Peacock Inspired Oxidised Earring Box (16 Pairs),1999.00,999.00,"Add a touch of elegance inspired by rich peacock hues with Teal Blue Oxidised Earring Box by Saaj Jewels. This beautifully curated collection features 16 pairs of oxidised earrings and traditional jhumkas in stunning teal blue tones, perfect for enhancing ethnic and fusion looks.
+Each pair showcases unique craftsmanship—from classic jhumkas to bold statement earrings—making this set ideal for daily wear, festive occasions, weddings, and celebrations. The earrings are neatly arranged in a premium jewellery storage gift box, offering both style and convenience.
+A must-have collection for jewellery lovers who adore timeless designs with a modern teal blue charm.
+
+Product Includes
+• 16 Pairs of Oxidised Earrings & Jhumkas (designs based on availability)
+• Teal Blue (Peacock-Inspired) Colour Theme
+• Premium Jewellery Storage Gift Box
+
+Perfect For
+💙 Festive & Traditional Wear
+💙 Wedding & Ethnic Outfits
+💙 Gifting & Personal Collection",Jhumka Box,4.50,0,2026-01-26 20:00:53.708+00,2026-02-01 08:59:37.701+00,,1,"[{""url"":""https://res.cloudinary.com/dfqqzbff7/image/upload/v1769457653/saajjewels_products/ci8i75yxarvswsi5n9ff.jpg"",""type"":""image"",""public_id"":""saajjewels_products/ci8i75yxarvswsi5n9ff""}]",
+83,Maroon Velvet Jhumka Box,1999.00,1099.00,"Experience timeless tradition with Riwaayat – Maroon Velvet Zhumka Box by Saaj Jewels. This exquisite jewellery box features 16 pairs of beautifully crafted oxidised earrings and traditional zhumkas, carefully arranged in a luxurious maroon velvet storage box that adds a royal touch to your collection.
+From classic temple-style jhumkas to elegant statement earrings, each pair is designed to complement ethnic, festive, and wedding outfits. The velvet interior not only enhances the presentation but also keeps your jewellery safe and organized.
+Perfect for personal use or gifting, this zhumka box is a must-have for every jewellery lover who appreciates tradition with elegance.
+
+Product Includes
+• 16 Pairs of Oxidised Earrings & Zhumkas (Designs based on availability)
+• Premium Maroon Velvet Jewellery Storage Box
+• Traditional & Statement Designs
+
+Perfect For
+❤️ Festive & Wedding Wear
+❤️ Traditional & Ethnic Outfits
+❤️ Gifting & Jewellery Collections",Jhumka Box,4.50,0,2026-01-26 20:06:53.054+00,2026-02-01 08:14:44.107+00,,1,"[{""url"":""https://res.cloudinary.com/dfqqzbff7/image/upload/v1769458012/saajjewels_products/kdnaag9hiij0tlntkyzf.jpg"",""type"":""image"",""public_id"":""saajjewels_products/kdnaag9hiij0tlntkyzf""}]",
+84,Red Maroon Zhumka Box (16 Pairs),1999.00,999.00,"Discover timeless tradition with- Red Maroon Zhumka Box by Saaj Jewels. This beautifully curated collection features 16 pairs of oxidised earrings and traditional zhumkas, neatly arranged in a stylish red-maroon coloured jewellery box for easy storage and elegant presentation.
+The box includes a variety of classic jhumkas, statement earrings, and stone-accented designs, making it perfect for festive wear, ethnic outfits, weddings, and daily traditional styling. Designed for both convenience and beauty, this zhumka box helps keep your earrings organized and ready to wear.
+Ideal for personal use or gifting, this collection is a must-have for jewellery lovers who appreciate traditional charm.
+
+Product Includes
+• 16 Pairs of Oxidised Earrings & Zhumkas
+• Red-Maroon Coloured Jewellery Storage Box
+• Traditional & Statement Designs
+
+Perfect For
+❤️ Festive & Ethnic Wear
+❤️ Wedding & Traditional Looks
+❤️ Gifting & Jewellery Collection",Jhumka Box,4.50,0,2026-01-26 20:09:13.753+00,2026-02-01 09:00:13.912+00,,1,"[{""url"":""https://res.cloudinary.com/dfqqzbff7/image/upload/v1769458152/saajjewels_products/k1z2rudmr7s0lolui90k.jpg"",""type"":""image"",""public_id"":""saajjewels_products/k1z2rudmr7s0lolui90k""}]",
+85,Chocoluxe sweet glow tower (2 layer),3199.00,1999.00,"Chocoluxe Sweet Glow  Tower is a beautifully handcrafted 2-layer chocolate arrangement, designed to make every celebration extra special.
+The lower layer is made with delicious KitKat chocolates, while the upper layer is styled with soft and tasty Lotte Choco Pie, creating a perfect balance of crunch and sweetness 🍫✨
+This tower is enhanced with warm fairy lights that add a magical glow, making it a stunning gifting piece. A personal photo is included to turn this chocolate tower into a memorable keepsake. Additional chocolates are added to make it even more indulgent.
+🎁 Perfect for: Birthdays, Anniversaries, Valentine’s Day, Surprise Gifts & Special Occasions.
+✨ Features:
+2-Layer Chocolate Tower Design
+KitKat Base Layer
+Lotte Choco Pie Upper Layer
+Warm Fairy Light Decoration
+Personalized Photo Included 📸
+Extra Chocolates
+Elegant & Eye-Catching Presentation
+💌 Customization Available
+Want to add your own photo, message, name, or occasion theme?
+👉 DM us on Instagram @saaj__jewels to customize your order as per your choice.
+💖 A perfect blend of chocolates, memories & glowing love — exclusively from Saaj Jewels.",Chocolate Tower,4.50,0,2026-01-29 09:14:55.538+00,2026-02-01 08:13:33.988+00,,1,"[{""url"":""https://res.cloudinary.com/dfqqzbff7/image/upload/v1769937521/saajjewels_products/ucqvizdvi6asbdomw97f.jpg"",""type"":""image"",""public_id"":""saajjewels_products/ucqvizdvi6asbdomw97f""}]",
+86,Choco Bliss – 3 Layer Chocolate Tower,3599.00,2699.00,"Celebrate birthdays in the sweetest way with our Choco Bliss – 3 Layer Chocolate Tower, a delightful combination of chocolates, lights, and love. Designed to impress at first glance, this tower is stacked in three elegant layers, beautifully arranged with KitKat and assorted premium chocolates, making it a perfect centerpiece for birthday celebrations.
+The tower is enhanced with warm decorative lights and a “Happy Birthday” customized element, creating a magical and joyful gifting experience. Whether you’re surprising a friend, partner, or family member, this chocolate tower adds extra sweetness to their special day.
+
+Highlights:
+3-Layer Chocolate Tower
+KitKat &  Chocolates 
+Fairy Lights
+“Happy Birthday” Customization
+Premium Festive Presentation
+Perfect for Birthday Surprises & Celebrations
+Customization Note
+
+✨ Customization available!
+You can customize:
+Name or message
+Occasion text (Birthday / Anniversary / Love / Surprise)
+Chocolate selection
+Light color & theme
+
+📩 DM us on Instagram or WhatsApp for customization, pricing & availability.
+Every tower is made with love, just for you 💝",Chocolate Tower,4.50,0,2026-01-29 09:18:07.672+00,2026-02-01 08:57:57.83+00,,1,"[{""url"":""https://res.cloudinary.com/dfqqzbff7/image/upload/v1769678287/saajjewels_products/bsukemlkne2xa0jvbpln.jpg"",""type"":""image"",""public_id"":""saajjewels_products/bsukemlkne2xa0jvbpln""}]",
+87,Premium Bucket Bouquet with photos and chocolates,1999.00,1299.00,"Bucket Bouquet is a perfect blend of love, emotions, and indulgence. Thoughtfully designed in a premium bucket, this bouquet combines delicious chocolates with personalized photo memories to create a truly unforgettable gift.
+Each bouquet is beautifully arranged to celebrate special moments—whether it’s a birthday, anniversary, Valentine’s Day, or just a surprise to make someone smile. Add your favorite photos and chocolates to make it uniquely yours.
+✨ Because some memories deserve to be seen, and some love deserves to be tasted.
+
+🎁 Key Features
+Premium decorative bucket bouquet
+Delicious chocolates arranged elegantly
+Personalized photo prints included
+Fully customizable (photos & chocolate selection)
+Perfect for birthdays, anniversaries, Valentine’s Day & surprises
+Handcrafted with love by Saaj Jewels",Bouquet,4.50,0,2026-01-29 09:20:52.19+00,2026-01-29 09:20:52.19+00,,1,"[{""url"":""https://res.cloudinary.com/dfqqzbff7/image/upload/v1769678451/saajjewels_products/hc8ktmsfvkw8xyjop553.jpg"",""type"":""image"",""public_id"":""saajjewels_products/hc8ktmsfvkw8xyjop553""}]",
+88,“Bloom & Choco Surprise Bucket Bouquet” ✨🍫,2599.00,2199.00,"Make every moment extra special with our Bloom & Choco Surprise Bucket Bouquet, a perfect blend of flowers, chocolates, and magical surprises.
+This beautifully arranged premium bucket hamper includes fresh/artificial flowers, a variety of delicious chocolates like Silk and other assorted treats, and elegant fairy lights to add a warm glow.
+The highlight of this bouquet is a Kinder Joy surprise gift hidden inside, making it even more exciting and unique.
+A perfect choice for birthdays, anniversaries, Valentine’s Day, or any special celebration.
+✨ Customization Available:
+Want to add photos, name tags, extra chocolates, or a personalized theme?
+📩 DM Saaj Jewels on Instagram for further customization!",Bouquet,4.50,0,2026-01-29 09:30:00.033+00,2026-01-29 09:30:00.033+00,,1,"[{""url"":""https://res.cloudinary.com/dfqqzbff7/image/upload/v1769678999/saajjewels_products/ct6mtukdg0imjer0twsn.jpg"",""type"":""image"",""public_id"":""saajjewels_products/ct6mtukdg0imjer0twsn""}]",
+89,Sparkle Bloom Jewellery Bouquet ✨💐,699.00,499.00,"Surprise your loved ones with something truly unique — our Sparkle Bloom Jewellery Bouquet is a luxurious mix of elegance, flowers, and jewellery charm.
+This beautifully handcrafted bouquet includes stylish Saaj Jewels accessories, arranged with premium artificial blooms, chocolates, and decorative wrapping to create a stunning gift hamper.
+Perfect for birthdays, anniversaries, Valentine’s Day, bridesmaids gifts, or any special occasion, this bouquet is designed to make the moment unforgettable.
+✨ A gift that feels like flowers, but shines like jewellery!
+💖 Customization Available:
+You can personalize it with your choice of jewellery, chocolates, flowers, colors, name tags, or special themes.
+📩 DM Saaj Jewels on Instagram for customization & orders.
+Products includes:
+Pendant/neckpiece
+Pair of earring/Jhumka
+One charm bracelet
+Scrunchie Medium size (2)
+Scrunchie Large 
+Crystal stone bow
+Flower claw clip
+Korean hair clips 
+Heart clutcher
+Korean bow clutcher
+Two kitkat",Bouquet,4.50,0,2026-01-29 10:10:19.307+00,2026-01-29 10:10:19.307+00,,1,"[{""url"":""https://res.cloudinary.com/dfqqzbff7/image/upload/v1769681418/saajjewels_products/lioyz3qvday5fj7aeuh7.jpg"",""type"":""image"",""public_id"":""saajjewels_products/lioyz3qvday5fj7aeuh7""}]",
+90,Kitty Birthday Chocolate Bouquet 🎂🍫,599.00,449.00,"Make birthdays extra sweet and adorable with our Kitty Birthday Chocolate Bouquet — a perfect combination of chocolates, cute theme wrapping, and birthday vibes.
+This handcrafted chocolate bouquet comes in a charming Hello Kitty inspired birthday theme, filled with delicious treats like:
+🍫 KitKat
+🍫 Crispello
+🍫 Dairy Milk
+🍫 Dark Fantasy
+(and more chocolates as per availability)
+Beautifully decorated with premium wrapping, floral fillers, and a birthday topper, this bouquet is a unique gift for kids, best friends, or anyone who loves cute surprises.
+✨ Perfect for birthdays, special celebrations, and sweet gifting moments.
+💖 Customization Available:
+You can personalize it with different chocolates, theme colors, name toppers, and special add-ons.
+📩 DM Saaj Jewels on Instagram for customization & orders!",Bouquet,4.50,0,2026-01-29 10:11:46.138+00,2026-01-29 10:11:46.138+00,,3,"[{""url"":""https://res.cloudinary.com/dfqqzbff7/image/upload/v1769681505/saajjewels_products/zd8kqz0y27aal6zaewxv.jpg"",""type"":""image"",""public_id"":""saajjewels_products/zd8kqz0y27aal6zaewxv""}]",
+91,Chocodelight bouquet,599.00,399.00,"Make every celebration sweeter with our Choco Delight Surprise Bouquet, a beautifully handcrafted chocolate bouquet filled with delicious treats and premium packaging.
+This bouquet includes a tempting mix of chocolates and candies such as:
+🍫 KitKat
+🍫 Dairy Milk
+🍫 5 Star
+🍬 Assorted Candies
+🍫 Lotte Choco Pie
+(and more chocolates as per availability)
+Wrapped in elegant decorative sheets with a ribbon finish, this bouquet is a perfect gift for birthdays, anniversaries, Valentine’s Day, or any special surprise moment.
+✨ A unique way to say “I love you” with chocolates!
+💖 Customization Available:
+You can customize the bouquet with your choice of chocolates, theme colors, toppers, name tags, and extra add-ons.
+📩 DM Saaj Jewels on Instagram for customization & orders!",Bouquet,4.50,0,2026-01-29 10:13:41.685+00,2026-01-29 10:13:41.685+00,,3,"[{""url"":""https://res.cloudinary.com/dfqqzbff7/image/upload/v1769681621/saajjewels_products/yuwbcub0mumbyrnimtt1.jpg"",""type"":""image"",""public_id"":""saajjewels_products/yuwbcub0mumbyrnimtt1""}]",
+92,Customized Jewellery Photo Bouquet,999.00,649.00,"Make every celebration extra special with our Forever Memories Customized Jewellery Photo Bouquet by Saaj Jewels.
+This beautiful premium bouquet is a perfect combination of elegant jewellery pieces and personalized photo memories, making it a truly unforgettable gift for your loved ones.
+It includes stunning earrings, bracelets, and stylish accessories arranged in a luxurious bouquet style, decorated with aesthetic wrapping, ribbons, and photo inserts to create a heartfelt surprise.
+Perfect for Birthdays, Anniversaries, Bridesmaids Gifts, Best Friend Surprises, or Any Special Occasion.
+💝 What’s Inside:
+✔ Premium Jewellery Pieces (Earrings, Bracelet, Rings, etc.)
+✔ Customized Photo Prints
+✔ Elegant Bouquet Wrapping & Decoration
+✔ Gift-ready Presentation with Ribbon Finish
+🌟 Customization Available:
+Want to add your own photos, special jewellery choices, or theme colors?
+📩 DM us on Instagram/WhatsApp for customization and personalized orders!
+Products included:
+Photos
+Scrunchie (large)
+Pendant
+Korean clips 
+Flower claw 
+Earrings
+Pair of jhumka 
+Charm bracelet
+Small hair bow
+Heart clutcher 
+Flower clutcher",Bouquet,4.50,0,2026-01-29 12:18:00.1+00,2026-01-29 12:18:00.1+00,,3,"[{""url"":""https://res.cloudinary.com/dfqqzbff7/image/upload/v1769689079/saajjewels_products/swnw6gqlr0zwfurkghrt.jpg"",""type"":""image"",""public_id"":""saajjewels_products/swnw6gqlr0zwfurkghrt""}]",
+93,Personalized Photo Bouquet,599.00,399.00,"Make every celebration extra special with our Memories & Chocolates Personalized Bouquet, a unique combination of sweet treats and cherished moments.
+This beautifully wrapped bouquet includes a delightful mix of premium chocolates like KitKat, Dairy Milk, 5 Star, and more, paired with custom photo prints that make it truly one-of-a-kind. Finished with elegant wrapping and a ribbon bow, it’s the perfect gift for birthdays, anniversaries, or surprise celebrations.
+✨ A bouquet that’s not just a gift, but a memory!
+Includes:
+Assorted chocolates (as per availability)
+Personalized photo prints
+Premium bouquet wrapping & ribbon
+📌 Customization Available!
+Want to add more chocolates, photos, a message card, or theme wrapping?
+DM us on Instagram/WhatsApp to customize your bouquet perfectly.",Bouquet,4.50,0,2026-01-29 12:24:33.159+00,2026-01-29 12:24:33.159+00,,1,"[{""url"":""https://res.cloudinary.com/dfqqzbff7/image/upload/v1769689472/saajjewels_products/uhd0scjt36cnxfhr8lpg.jpg"",""type"":""image"",""public_id"":""saajjewels_products/uhd0scjt36cnxfhr8lpg""}]",
+94,“Sweetheart Chocolate Bouquet – Valentine’s Special” 💐❤️,559.00,399.00,"Make this Valentine’s Day extra sweet with our Sweetheart Chocolate Bouquet, a perfect blend of love, chocolates, and adorable charm.
+Beautifully wrapped in premium red floral packaging with a cute romantic theme, this bouquet is filled with delicious assorted chocolates like KitKat, Crispero, Dark Fantasy, Lotte Choco Pie, and more (as per availability).
+A unique gift that’s more special than flowers, this chocolate bouquet is ideal for surprising your partner, best friend, or someone you truly adore.
+✨ Perfect for Valentine’s Day, proposals, anniversaries, or love surprises.
+Customization Available 💌
+Want to add a personal touch?
+We can customize it with photos, special notes, extra chocolates, name tags, fairy lights, and more.
+📩 DM us on Instagram/WhatsApp to customize your bouquet",Bouquet,4.50,0,2026-01-29 12:34:59.005+00,2026-01-29 12:34:59.005+00,,1,"[{""url"":""https://res.cloudinary.com/dfqqzbff7/image/upload/v1769690098/saajjewels_products/nc7jugpovjmf21edwycr.jpg"",""type"":""image"",""public_id"":""saajjewels_products/nc7jugpovjmf21edwycr""}]",
+95,“Love Chocolate Bouquet – Valentine Edition” 💐❤️,399.00,559.00,"Celebrate love in the sweetest way with our Love Bloom Chocolate Bouquet – Valentine Edition, a stunning handcrafted bouquet designed to make hearts melt.
+Wrapped in elegant premium black and blush packaging with a romantic aesthetic, this bouquet is filled with delicious assorted chocolates like KitKat, Crispero, Dark Fantasy, Lotte Choco Pie, and more (as per availability).
+It’s the perfect Valentine’s gift to surprise your special someone with a mix of chocolates and charm — because flowers fade, but chocolates create memories!
+✨ Ideal for Valentine’s Day, anniversaries, proposals, or love surprises.
+Customization Available 💌
+Want to make it more personal?
+We can customize your bouquet with:
+✔ Name tags
+✔ Photos
+✔ Love notes
+✔ Fairy lights
+✔ Extra chocolates & themes
+📩 DM us on Instagram/WhatsApp for customization and orders.",Bouquet,4.50,0,2026-01-29 12:37:32.861+00,2026-01-29 12:37:32.861+00,,1,"[{""url"":""https://res.cloudinary.com/dfqqzbff7/image/upload/v1769690252/saajjewels_products/yfeb4nqywcjyzw85evjp.jpg"",""type"":""image"",""public_id"":""saajjewels_products/yfeb4nqywcjyzw85evjp""}]",
+96,"The ""Amour"" Matching Set",199.00,99.00,"Double the sparkle, double the love. ✨ Whether it’s an anniversary or a Valentine’s surprise, our Amour Set blends contemporary silver-tones with classic gold heart-work. Because your love story deserves to be told in every color.",Rings,4.50,0,2026-01-29 12:45:28.082+00,2026-01-29 12:45:28.082+00,,1,"[{""url"":""https://res.cloudinary.com/dfqqzbff7/image/upload/v1769690727/saajjewels_products/smvrc4usbzyemq4b0wih.jpg"",""type"":""image"",""public_id"":""saajjewels_products/smvrc4usbzyemq4b0wih""}]",
+97,The Pieces of Me Couple’s Rings,199.00,99.00,"True love is finding the piece that fits perfectly with yours. This romantic set features a high-polish silver band with a unique heart-shaped cutout and a matching dainty ring crowned with a glistening heart-shaped solitaire. Elegant, meaningful, and designed to show that your hearts belong together.",Rings,4.50,0,2026-01-29 12:46:23.741+00,2026-01-29 12:46:23.741+00,,1,"[{""url"":""https://res.cloudinary.com/dfqqzbff7/image/upload/v1769690782/saajjewels_products/ngjkc5uafinjuccsqg0o.jpg"",""type"":""image"",""public_id"":""saajjewels_products/ngjkc5uafinjuccsqg0o""}]",
+98,"The ""Eternal Bond"" couple Ring Set",199.00,99.00,"Celebrate a love that’s written in the stars with our Eternal Bond Couple Ring Set. This matching pair is thoughtfully designed to symbolize the unique harmony between two people—different in form, but unified in spirit.
+For Him: A bold, contemporary band featuring a sleek tension-style setting that holds a brilliant center stone. It represents strength, stability, and a promise that lasts.
+For Her: A delicate, timeless ring with a refined four-prong setting, designed to maximize the light and fire of the stone. It represents elegance, grace, and the spark of your shared future.",Rings,4.50,0,2026-01-29 12:49:33.758+00,2026-01-29 12:49:33.758+00,,1,"[{""url"":""https://res.cloudinary.com/dfqqzbff7/image/upload/v1769690973/saajjewels_products/n9uylfttblepfppk9ant.jpg"",""type"":""image"",""public_id"":""saajjewels_products/n9uylfttblepfppk9ant""}]",
+99,Love pearl necklace,499.00,299.00,"This is an interactive jewelry kit where the ""reveal"" is part of the gift. It typically includes a vacuum-sealed oyster (hidden inside the box), a cage-style pendant, and a chain.
+How it Works:
+Make a Wish: Before opening the sealed can or oyster, you are supposed to make a wish.
+Harvest the Pearl: You carefully open the real oyster shell to find a genuine cultured freshwater pearl inside.
+Reveal the Meaning: The color of the pearl you find is a surprise and is said to represent a specific fortune:
+White: Health
+Cream: Happiness
+Peach: Love
+Lavender: Wisdom
+Gold: Wealth
+Wear It: Once you’ve cleaned the pearl, you place it inside the silver-tone flower cage pendant and thread it onto the chain.
+Key Features
+Pendant Style: Often features a decorative cage (like the flower/heart design in your photo) that opens up to hold the pearl without needing glue.
+Jewelry Material: Usually silver-plated alloy or stainless steel.
+The Oyster: The oyster is real but preserved in a liquid solution (not edible!).
+Extras: Some sets, like the one in your photo, also include matching pearl-style stud earrings and a ring to complete the look.
+Safety Tip: When opening the oyster, it’s a good idea to use a small tool (like a butter knife or the plastic tool sometimes provided) and wipe the pearl clean before wearing it to remove any preservation liquid.",Necklace,4.50,0,2026-01-29 13:20:11.647+00,2026-01-29 13:20:11.647+00,,1,"[{""url"":""https://res.cloudinary.com/dfqqzbff7/image/upload/v1769692811/saajjewels_products/plifo0nd2mwyvobbesec.jpg"",""type"":""image"",""public_id"":""saajjewels_products/plifo0nd2mwyvobbesec""}]",
+101,Love pearl necklace,999.00,549.00,"This is an interactive jewelry kit where the ""reveal"" is part of the gift. It typically includes a vacuum-sealed oyster (hidden inside the box), a cage-style pendant, and a chain.
+How it Works:
+Make a Wish: Before opening the sealed can or oyster, you are supposed to make a wish.
+Harvest the Pearl: You carefully open the real oyster shell to find a genuine cultured freshwater pearl inside.
+Reveal the Meaning: The color of the pearl you find is a surprise and is said to represent a specific fortune:
+White: Health
+Cream: Happiness
+Peach: Love
+Lavender: Wisdom
+Gold: Wealth
+Wear It: Once you’ve cleaned the pearl, you place it inside the silver-tone flower cage pendant and thread it onto the chain.
+Key Features
+Pendant Style: Often features a decorative cage (like the flower/heart design in your photo) that opens up to hold the pearl without needing glue.
+Jewelry Material: Usually silver-plated alloy or stainless steel.
+The Oyster: The oyster is real but preserved in a liquid solution (not edible!).
+Extras: Some sets, like the one in your photo, also include matching pearl-style stud earrings and a ring to complete the look.
+Safety Tip: When opening the oyster, it’s a good idea to use a small tool (like a butter knife or the plastic tool sometimes provided) and wipe the pearl clean before wearing it to remove any preservation liquid.",Necklace,4.50,0,2026-01-29 13:23:38.249+00,2026-01-31 15:47:44.675+00,,1,"[{""url"":""https://res.cloudinary.com/dfqqzbff7/image/upload/v1769878371/saajjewels_products/pj34yamfdlktjqp0rsl4.jpg"",""type"":""image"",""public_id"":""saajjewels_products/pj34yamfdlktjqp0rsl4""}]",
+102,Pinterest-Inspired Jewellery Hamper Box,499.00,399.00,"Product includes:
+Crystal bow 
+Charm bracelet
+Pair of earring 
+Pair of jhumka
+Scrunchie (Medium)
+Scrunchie (Large)
+Flower claw
+Loop Hair claw
+Pendant
+Heart Clutcher
+
+(All products mentioned here will based on availability)",Hamper,4.50,0,2026-01-29 14:01:08.907+00,2026-01-29 14:02:46.388+00,,1,"[{""url"":""https://res.cloudinary.com/dfqqzbff7/image/upload/v1769695268/saajjewels_products/vyah0k0dtzipaiufr26a.jpg"",""type"":""image"",""public_id"":""saajjewels_products/vyah0k0dtzipaiufr26a""}]",
+103,Mini Pinterest-Inspired Jewelry Hamper Box,499.00,299.00,"Product Includes:
+Pair of Earrings 
+Pendant
+Pair of Korean clip
+Claw clip Flower claw 
+Charm bracelet
+Hair Bow (small)
+Heart clutcher 
+Mini Bow clutcher",Hamper,4.50,0,2026-01-29 14:11:47.528+00,2026-01-29 14:11:47.528+00,,1,"[{""url"":""https://res.cloudinary.com/dfqqzbff7/image/upload/v1769695907/saajjewels_products/m1vwz8kost1arf9fgck0.jpg"",""type"":""image"",""public_id"":""saajjewels_products/m1vwz8kost1arf9fgck0""}]",
