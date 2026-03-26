@@ -14,7 +14,7 @@ from app.models.product import Product
 
 router = APIRouter()
 
-SITE_URL = "https://saajjewels.com"
+SITE_URL = "https://saajjewel.in"
 
 STATIC_PAGES = [
     {"loc": "/", "priority": "1.0", "changefreq": "daily"},

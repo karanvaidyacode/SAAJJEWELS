@@ -1,7 +1,7 @@
 import { Helmet } from "react-helmet-async";
 
 const SITE_NAME = "SAAJJEWELS";
-const SITE_URL = "https://saajjewels.com";
+const SITE_URL = "https://saajjewel.in";
 const DEFAULT_IMAGE = `${SITE_URL}/favicon.ico`;
 const DEFAULT_DESCRIPTION =
   "Shop premium handcrafted jewellery at SAAJJEWELS — necklaces, bracelets, earrings, jhumkas, rings and gifting hampers. Affordable elegance with fast pan-India shipping.";

@@ -36,7 +36,7 @@ class Settings(BaseSettings):
     EMAIL_PORT: int = 587
     EMAIL_USER: str = ""
     EMAIL_PASSWORD: str = ""
-    EMAIL_FROM: str = "no-reply@saajjewels.com"
+    EMAIL_FROM: str = "no-reply@saajjewel.in"
 
     @property
     def DATABASE_URL(self) -> str:

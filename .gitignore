@@ -1,0 +1,38 @@
+# Environment files (secrets)
+.env
+.env.local
+.env.production
+.env.*.local
+
+# Keep the example file
+!.env.example
+
+# OS files
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# CSV data files (may contain product data)
+*.csv
+
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+
+# Node
+node_modules/
+
+# Docker volumes
+docker-data/
+
+# Logs
+*.log
+npm-debug.log*

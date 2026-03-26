@@ -134,8 +134,8 @@ app.add_exception_handler(RateLimitExceeded, _rate_limit_exceeded_handler)
 
 # CORS configuration
 _allowed_origins = [
-    "https://saajjewels.com",
-    "https://www.saajjewels.com",
+    "https://saajjewel.in",
+    "https://www.saajjewel.in",
     "http://localhost:3000",
     "http://localhost:5173",
 ]

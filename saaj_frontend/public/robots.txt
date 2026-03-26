@@ -30,4 +30,4 @@ Disallow: /checkout
 Disallow: /order-confirmation/
 Disallow: /login
 
-Sitemap: https://saajjewels.com/api/sitemap.xml
+Sitemap: https://saajjewel.in/api/sitemap.xml

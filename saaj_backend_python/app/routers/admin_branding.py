@@ -16,12 +16,10 @@ _branding_settings = {
     "secondaryColor": "#f5f5f5",
     "fontFamily": "Arial, sans-serif",
     "faviconUrl": "/favicon.ico",
-    "contactEmail": "info@saajjewels.com",
-    "contactPhone": "+1234567890",
+    "contactEmail": "saajewels45@gmail.com",
+    "contactPhone": "+91-9921810182",
     "socialLinks": {
-        "facebook": "https://facebook.com/saajjewels",
-        "instagram": "https://instagram.com/saajjewels",
-        "twitter": "https://twitter.com/saajjewels",
+        "instagram": "https://www.instagram.com/saaj__jewels",
     },
 }
 
@@ -67,12 +65,10 @@ async def reset_branding_settings(request: Request):
         "secondaryColor": "#f5f5f5",
         "fontFamily": "Arial, sans-serif",
         "faviconUrl": "/favicon.ico",
-        "contactEmail": "info@saajjewels.com",
-        "contactPhone": "+1234567890",
+        "contactEmail": "saajewels45@gmail.com",
+        "contactPhone": "+91-9921810182",
         "socialLinks": {
-            "facebook": "https://facebook.com/saajjewels",
-            "instagram": "https://instagram.com/saajjewels",
-            "twitter": "https://twitter.com/saajjewels",
+            "instagram": "https://www.instagram.com/saaj__jewels",
         },
     }
 
