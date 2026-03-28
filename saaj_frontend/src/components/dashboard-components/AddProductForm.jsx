@@ -10,16 +10,13 @@ import {
   SelectTrigger,
   SelectValue,
 } from "../ui/select";
-import { Plus, RefreshCw, Trash2, Scissors } from "lucide-react";
+import { Plus, RefreshCw, Trash2, X } from "lucide-react";
 import { fetchApi } from "../../lib/api";
-import Cropper from "react-easy-crop";
-import { getCroppedImgFile } from "../../utils/cropImage";
 import {
   Dialog,
   DialogContent,
   DialogHeader,
   DialogTitle,
-  DialogFooter,
 } from "../ui/dialog";
 
 const AddProductForm = ({ onProductAdded }) => {
@@ -39,13 +36,8 @@ const AddProductForm = ({ onProductAdded }) => {
     rating: 4.5,
   });
 
-  // Cropping State
-  const [cropModalOpen, setCropModalOpen] = useState(false);
-  const [imageToCrop, setImageToCrop] = useState(null);
-  const [crop, setCrop] = useState({ x: 0, y: 0 });
-  const [zoom, setZoom] = useState(1);
-  const [croppedAreaPixels, setCroppedAreaPixels] = useState(null);
-  const [currentFileToCrop, setCurrentFileToCrop] = useState(null);
+  // Full image preview state
+  const [previewImage, setPreviewImage] = useState(null);
 
   // Predefined categories
   const categories = [
@@ -79,36 +71,6 @@ const AddProductForm = ({ onProductAdded }) => {
     }
   };
 
-  const onCropComplete = (croppedArea, croppedAreaPixels) => {
-    setCroppedAreaPixels(croppedAreaPixels);
-  };
-
-  const applyCrop = async () => {
-    try {
-      const croppedFile = await getCroppedImgFile(
-        imageToCrop,
-        croppedAreaPixels,
-        currentFileToCrop.name
-      );
-      
-      const preview = {
-        url: URL.createObjectURL(croppedFile),
-        type: "image",
-        file: croppedFile
-      };
-
-      setAddForm((f) => ({ ...f, mediaFiles: [...(f.mediaFiles || []), preview] }));
-      
-      setCropModalOpen(false);
-      setImageToCrop(null);
-      setCurrentFileToCrop(null);
-      setMessage("Image cropped successfully");
-    } catch (e) {
-      console.error(e);
-      setMessage("Error cropping image");
-    }
-  };
-
   const handleDrop = (e) => {
     e.preventDefault();
     e.stopPropagation();
@@ -122,19 +84,13 @@ const AddProductForm = ({ onProductAdded }) => {
       return;
     }
 
-    if (mediaFiles.length === 1 && mediaFiles[0].type.startsWith("image/")) {
-      setImageToCrop(URL.createObjectURL(mediaFiles[0]));
-      setCurrentFileToCrop(mediaFiles[0]);
-      setCropModalOpen(true);
-    } else {
-      const previews = mediaFiles.map(file => ({
-        url: URL.createObjectURL(file),
-        type: file.type.startsWith("video/") ? "video" : "image",
-        file
-      }));
-      setAddForm((f) => ({ ...f, mediaFiles: [...(f.mediaFiles || []), ...previews] }));
-    }
-    setMessage(`${mediaFiles.length} files processed`);
+    const previews = mediaFiles.map(file => ({
+      url: URL.createObjectURL(file),
+      type: file.type.startsWith("video/") ? "video" : "image",
+      file
+    }));
+    setAddForm((f) => ({ ...f, mediaFiles: [...(f.mediaFiles || []), ...previews] }));
+    setMessage(`${mediaFiles.length} file(s) added`);
   };
 
   const handleFileChange = (e) => {
@@ -147,18 +103,12 @@ const AddProductForm = ({ onProductAdded }) => {
         return;
       }
 
-      if (mediaFiles.length === 1 && mediaFiles[0].type.startsWith("image/")) {
-        setImageToCrop(URL.createObjectURL(mediaFiles[0]));
-        setCurrentFileToCrop(mediaFiles[0]);
-        setCropModalOpen(true);
-      } else {
-        const previews = mediaFiles.map(file => ({
-          url: URL.createObjectURL(file),
-          type: file.type.startsWith("video/") ? "video" : "image",
-          file
-        }));
-        setAddForm((f) => ({ ...f, mediaFiles: [...(f.mediaFiles || []), ...previews] }));
-      }
+      const previews = mediaFiles.map(file => ({
+        url: URL.createObjectURL(file),
+        type: file.type.startsWith("video/") ? "video" : "image",
+        file
+      }));
+      setAddForm((f) => ({ ...f, mediaFiles: [...(f.mediaFiles || []), ...previews] }));
     }
   };
 
@@ -392,45 +342,33 @@ const AddProductForm = ({ onProductAdded }) => {
               {addForm.mediaFiles && addForm.mediaFiles.length > 0 ? (
                 <div className="flex flex-wrap gap-2 justify-center">
                   {addForm.mediaFiles.map((m, i) => (
-                    <div key={i} className="relative w-24 h-24">
+                    <div key={i} className="relative w-24 h-24 group">
                       {m.type === "video" ? (
                         <div className="w-full h-full bg-black rounded flex items-center justify-center text-white text-[10px]">VIDEO</div>
                       ) : (
                         <img
                           src={m.url}
                           alt="Preview"
-                          className="w-full h-full object-cover rounded shadow"
-                        />
-                      )}
-                      <div className="absolute top-1 right-1 flex gap-1">
-                        {m.type === "image" && (
-                          <button
-                            className="bg-blue-500 text-white rounded-full p-1 opacity-80 hover:opacity-100"
-                            onClick={(e) => {
-                              e.preventDefault();
-                              setImageToCrop(m.url);
-                              setCurrentFileToCrop(m.file);
-                              const updated = [...addForm.mediaFiles];
-                              updated.splice(i, 1);
-                              setAddForm({...addForm, mediaFiles: updated});
-                              setCropModalOpen(true);
-                            }}
-                          >
-                            <Scissors className="w-3 h-3" />
-                          </button>
-                        )}
-                        <button 
-                          className="bg-red-500 text-white rounded-full p-1 opacity-80 hover:opacity-100"
+                          className="w-full h-full object-cover rounded shadow cursor-pointer"
                           onClick={(e) => {
                             e.preventDefault();
-                            const updated = [...addForm.mediaFiles];
-                            updated.splice(i, 1);
-                            setAddForm({...addForm, mediaFiles: updated});
+                            e.stopPropagation();
+                            setPreviewImage(m.url);
                           }}
-                        >
-                          <Trash2 className="w-3 h-3" />
-                        </button>
-                      </div>
+                        />
+                      )}
+                      <button 
+                        className="absolute top-1 right-1 bg-red-500 text-white rounded-full p-1 opacity-80 hover:opacity-100"
+                        onClick={(e) => {
+                          e.preventDefault();
+                          e.stopPropagation();
+                          const updated = [...addForm.mediaFiles];
+                          updated.splice(i, 1);
+                          setAddForm({...addForm, mediaFiles: updated});
+                        }}
+                      >
+                        <Trash2 className="w-3 h-3" />
+                      </button>
                     </div>
                   ))}
                   <div className="w-24 h-24 border-2 border-dashed border-gray-300 rounded flex items-center justify-center text-gray-400">
@@ -469,43 +407,27 @@ const AddProductForm = ({ onProductAdded }) => {
         </form>
       </Card>
 
-      {/* Crop Modal */}
-      <Dialog open={cropModalOpen} onOpenChange={setCropModalOpen}>
-        <DialogContent className="max-w-2xl">
+      {/* Full Image Preview Modal */}
+      <Dialog open={!!previewImage} onOpenChange={() => setPreviewImage(null)}>
+        <DialogContent className="max-w-3xl p-2">
           <DialogHeader>
-            <DialogTitle>Crop Image</DialogTitle>
+            <DialogTitle>Image Preview</DialogTitle>
           </DialogHeader>
-          <div className="relative h-96 bg-gray-100">
-            {imageToCrop && (
-              <Cropper
-                image={imageToCrop}
-                crop={crop}
-                zoom={zoom}
-                aspect={1}
-                onCropChange={setCrop}
-                onZoomChange={setZoom}
-                onCropComplete={onCropComplete}
+          {previewImage && (
+            <div className="flex items-center justify-center bg-gray-50 rounded-lg p-2">
+              <img
+                src={previewImage}
+                alt="Full preview"
+                className="max-w-full max-h-[75vh] object-contain rounded"
               />
-            )}
-          </div>
-          <div className="space-y-2">
-            <label className="text-sm font-medium">Zoom</label>
-            <input
-              type="range"
-              min={1}
-              max={3}
-              step={0.1}
-              value={zoom}
-              onChange={(e) => setZoom(parseFloat(e.target.value))}
-              className="w-full"
-            />
-          </div>
-          <DialogFooter>
-            <Button variant="outline" onClick={() => setCropModalOpen(false)}>
-              Cancel
-            </Button>
-            <Button onClick={applyCrop}>Apply Crop</Button>
-          </DialogFooter>
+            </div>
+          )}
+          <button
+            className="absolute top-3 right-3 bg-white rounded-full p-1 shadow hover:bg-gray-100"
+            onClick={() => setPreviewImage(null)}
+          >
+            <X className="w-4 h-4" />
+          </button>
         </DialogContent>
       </Dialog>
     </>

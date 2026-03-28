@@ -198,7 +198,7 @@ async def update_product(
     sku: Optional[str] = Form(None),
     targetWidth: Optional[str] = Form(None),
     targetHeight: Optional[str] = Form(None),
-    media_json: Optional[str] = Form(None, alias="media"),
+    media_json: Optional[str] = Form(None),
     media: List[UploadFile] = File(None),
     db: AsyncSession = Depends(get_db),
 ):
