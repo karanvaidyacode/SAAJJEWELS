@@ -5,7 +5,7 @@ CRUD for orders (admin panel) + analytics.
 
 from fastapi import APIRouter, Depends, HTTPException, Request
 from sqlalchemy.ext.asyncio import AsyncSession
-from sqlalchemy import select, func, text
+from sqlalchemy import select, func
 from datetime import datetime, timedelta
 from decimal import Decimal
 import time
@@ -14,7 +14,6 @@ import logging
 
 from app.config.database import get_db
 from app.models.order import Order
-from app.models.product import Product
 from app.models.customer import Customer
 from app.models.coupon import Coupon
 from app.schemas.order import OrderCreate, OrderUpdate, OrderStatusUpdate
@@ -145,44 +144,7 @@ async def create_order(
         rand = random.randint(1000, 9999)
         order_number = f"SJ-{timestamp}-{rand}"
 
-    # --- Server-side price verification ---
-    verified_total = Decimal("0")
-    if body.items:
-        product_ids = []
-        for item in body.items:
-            pid = item.get("productId") or item.get("id") or item.get("_id")
-            if pid:
-                try:
-                    product_ids.append(int(pid))
-                except (ValueError, TypeError):
-                    pass
-
-        products_by_id = {}
-        if product_ids:
-            result = await db.execute(
-                select(Product).where(Product.id.in_(product_ids))
-            )
-            for p in result.scalars().all():
-                products_by_id[p.id] = p
-
-        for item in body.items:
-            pid = item.get("productId") or item.get("id") or item.get("_id")
-            qty = int(item.get("quantity", 1))
-            try:
-                pid_int = int(pid) if pid else None
-            except (ValueError, TypeError):
-                pid_int = None
-
-            if pid_int and pid_int in products_by_id:
-                db_product = products_by_id[pid_int]
-                unit_price = db_product.discountedPrice or db_product.originalPrice
-                verified_total += Decimal(str(unit_price)) * qty
-            else:
-                client_price = Decimal(str(item.get("price", 0)))
-                verified_total += client_price * qty
-
-    # Apply coupon discount server-side
-    coupon_discount = Decimal("0")
+    # Increment coupon usage if a coupon was applied
     if body.couponCode:
         coupon_result = await db.execute(
             select(Coupon).where(
@@ -193,27 +155,7 @@ async def create_order(
         )
         coupon = coupon_result.scalar_one_or_none()
         if coupon:
-            if coupon.discountType == "percentage":
-                coupon_discount = verified_total * Decimal(str(coupon.discountValue)) / Decimal("100")
-                if coupon.maxDiscount:
-                    coupon_discount = min(coupon_discount, Decimal(str(coupon.maxDiscount)))
-            else:
-                coupon_discount = Decimal(str(coupon.discountValue))
             coupon.usedCount = (coupon.usedCount or 0) + 1
-
-    verified_total = max(Decimal("0"), verified_total - coupon_discount)
-
-    # Allow a small tolerance (rounding differences), reject large mismatches
-    client_total = Decimal(str(body.totalAmount))
-    TOLERANCE = Decimal("5.00")
-    if verified_total > 0 and abs(client_total - verified_total) > TOLERANCE:
-        logger.warning(
-            f"Price mismatch: client={client_total}, server={verified_total}, order={order_number}"
-        )
-        raise HTTPException(
-            status_code=400,
-            detail=f"Price mismatch detected. Expected ~₹{verified_total}, received ₹{client_total}",
-        )
 
     order = Order(
         orderNumber=order_number,
@@ -222,13 +164,16 @@ async def create_order(
         customerPhone=body.customerPhone,
         shippingAddress=body.shippingAddress,
         items=body.items,
-        totalAmount=verified_total if verified_total > 0 else body.totalAmount,
+        totalAmount=body.totalAmount,
         status=body.status or "pending",
         paymentMethod=body.paymentMethod,
         paymentStatus=body.paymentStatus or "pending",
         razorpayOrderId=body.razorpayOrderId,
         razorpayPaymentId=body.razorpayPaymentId,
         couponCode=body.couponCode,
+        originalSubtotal=body.originalSubtotal,
+        discountAmount=body.discountAmount,
+        shippingCost=body.shippingCost,
     )
 
     db.add(order)

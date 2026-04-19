@@ -15,7 +15,6 @@ from sqlalchemy import select
 
 from app.config.settings import get_settings
 from app.config.database import get_db
-from app.models.customer import Customer
 from app.models.order import Order
 
 settings = get_settings()
@@ -51,58 +50,6 @@ class VerifyPaymentRequest(BaseModel):
     razorpay_payment_id: str
     razorpay_signature: str
     orderData: Optional[dict] = None
-
-
-async def _update_customer_from_order(db: AsyncSession, order_data: dict):
-    """
-    Find or create a Customer record when a payment is verified.
-    Mirrors the Node.js updateCustomerFromOrder logic.
-    """
-    customer_email = order_data.get("customerEmail")
-    if not customer_email:
-        return
-
-    customer_name = order_data.get("customerName", "")
-    customer_phone = order_data.get("customerPhone", "")
-    total_amount = float(order_data.get("totalAmount", 0))
-
-    try:
-        result = await db.execute(
-            select(Customer).where(Customer.email == customer_email)
-        )
-        customer = result.scalar_one_or_none()
-
-        if customer:
-            # Update existing customer
-            customer.totalOrders = (customer.totalOrders or 0) + 1
-            customer.totalSpent = float(customer.totalSpent or 0) + total_amount
-            from datetime import datetime
-            customer.lastOrderDate = datetime.utcnow()
-            if customer_phone:
-                customer.phone = customer_phone
-            if customer_name:
-                customer.name = customer_name
-            logger.info(f"Updated existing customer: {customer_email}")
-        else:
-            # Create new customer
-            from datetime import datetime
-            new_customer = Customer(
-                name=customer_name or "",
-                email=customer_email,
-                phone=customer_phone or "",
-                totalOrders=1,
-                totalSpent=total_amount,
-                lastOrderDate=datetime.utcnow(),
-                status="active",
-            )
-            db.add(new_customer)
-            logger.info(f"Created new customer: {customer_email}")
-
-        await db.commit()
-    except Exception as e:
-        logger.error(f"Error updating customer from order: {e}")
-        # Don't fail payment verification if customer update fails
-        await db.rollback()
 
 
 @router.post("/create-order")
@@ -159,11 +106,8 @@ async def create_razorpay_order(body: CreateOrderRequest):
 
 
 @router.post("/verify-payment")
-async def verify_payment(
-    body: VerifyPaymentRequest,
-    db: AsyncSession = Depends(get_db),
-):
-    """Verify Razorpay payment signature and update customer data."""
+async def verify_payment(body: VerifyPaymentRequest):
+    """Verify Razorpay payment signature."""
     try:
         sign = f"{body.razorpay_order_id}|{body.razorpay_payment_id}"
         expected_signature = hmac.new(
@@ -173,14 +117,6 @@ async def verify_payment(
         ).hexdigest()
 
         if expected_signature == body.razorpay_signature:
-            # Update customer data when payment is verified
-            if body.orderData and body.orderData.get("customerEmail"):
-                try:
-                    await _update_customer_from_order(db, body.orderData)
-                except Exception as customer_error:
-                    logger.error(f"Error updating customer from order: {customer_error}")
-                    # Don't fail the payment verification if customer update fails
-
             return {"status": "success"}
         else:
             raise HTTPException(

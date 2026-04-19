@@ -251,9 +251,36 @@ export default function OrderDetails() {
                       <span className="text-gray-600">Payment Method:</span>
                       <span className="font-medium capitalize">{order.paymentMethod || 'N/A'}</span>
                     </div>
-                    <div className="flex justify-between pt-4 border-t">
-                      <span className="text-lg font-semibold">Total Amount:</span>
-                      <span className="text-lg font-bold">₹{(Number(order.totalAmount) || 0).toFixed(2)}</span>
+                    <div className="pt-4 border-t space-y-2">
+                      {order.originalSubtotal != null && (
+                        <div className="flex justify-between text-sm">
+                          <span className="text-gray-600">Subtotal:</span>
+                          <span>₹{(Number(order.originalSubtotal) || 0).toFixed(2)}</span>
+                        </div>
+                      )}
+                      {Number(order.discountAmount) > 0 && (
+                        <div className="flex justify-between text-sm text-green-600">
+                          <span>
+                            Discount
+                            {order.couponCode ? ` (${order.couponCode})` : ''}:
+                          </span>
+                          <span>-₹{(Number(order.discountAmount)).toFixed(2)}</span>
+                        </div>
+                      )}
+                      {order.couponCode && Number(order.discountAmount) === 0 && (
+                        <div className="flex justify-between text-sm text-green-600">
+                          <span>Coupon: {order.couponCode}</span>
+                          <span>Applied</span>
+                        </div>
+                      )}
+                      <div className="flex justify-between text-sm">
+                        <span className="text-gray-600">Shipping:</span>
+                        <span>{Number(order.shippingCost) === 0 ? 'Free' : `₹${(Number(order.shippingCost) || 0).toFixed(2)}`}</span>
+                      </div>
+                      <div className="flex justify-between pt-2 border-t">
+                        <span className="text-lg font-semibold">Total Paid:</span>
+                        <span className="text-lg font-bold">₹{(Number(order.totalAmount) || 0).toFixed(2)}</span>
+                      </div>
                     </div>
                   </div>
                 </Card>

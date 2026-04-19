@@ -17,6 +17,9 @@ class OrderCreate(BaseModel):
     razorpayOrderId: Optional[str] = None
     razorpayPaymentId: Optional[str] = None
     couponCode: Optional[str] = None
+    originalSubtotal: Optional[Decimal] = None
+    discountAmount: Optional[Decimal] = None
+    shippingCost: Optional[Decimal] = None
     customer: Optional[Any] = None  # Accept but ignore
 
 

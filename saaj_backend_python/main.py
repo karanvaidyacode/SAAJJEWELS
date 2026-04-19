@@ -94,6 +94,18 @@ async def lifespan(app: FastAPI):
                 END $$;"""
             ))
 
+            # Add order breakdown columns if they don't exist
+            for col_sql in [
+                'ALTER TABLE orders ADD COLUMN "originalSubtotal" NUMERIC(12,2)',
+                'ALTER TABLE orders ADD COLUMN "discountAmount" NUMERIC(12,2) DEFAULT 0',
+                'ALTER TABLE orders ADD COLUMN "shippingCost" NUMERIC(12,2) DEFAULT 0',
+            ]:
+                await conn.execute(text(
+                    f"""DO $$ BEGIN {col_sql};
+                    EXCEPTION WHEN duplicate_column THEN NULL;
+                    END $$;"""
+                ))
+
         logger.info("Database ENUM types and tables synced successfully")
     except Exception as e:
         logger.error(f"Database table sync failed: {e}")

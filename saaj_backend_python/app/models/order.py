@@ -62,6 +62,9 @@ class Order(Base):
     razorpayOrderId = Column("razorpayOrderId", String, nullable=True)
     razorpayPaymentId = Column("razorpayPaymentId", String, nullable=True)
     couponCode = Column("couponCode", String, nullable=True)
+    originalSubtotal = Column("originalSubtotal", Numeric(12, 2), nullable=True)
+    discountAmount = Column("discountAmount", Numeric(12, 2), nullable=True, default=0)
+    shippingCost = Column("shippingCost", Numeric(12, 2), nullable=True, default=0)
     createdAt = Column("createdAt", DateTime, server_default=func.now())
     updatedAt = Column("updatedAt", DateTime, server_default=func.now(), onupdate=func.now())
 
